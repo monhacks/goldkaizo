@@ -283,7 +283,7 @@ CeruleanCity_MapEvents:
 	db 0 ; coord events
 
 	db 9 ; bg events
-	bg_event 23, 23, BGEVENT_READ, CeruleanCitySign
+	bg_event 25, 23, BGEVENT_READ, CeruleanCitySign
 	bg_event 27, 25, BGEVENT_READ, CeruleanGymSign
 	bg_event 11, 29, BGEVENT_READ, CeruleanBikeShopSign
 	bg_event 25, 17, BGEVENT_READ, CeruleanPoliceSign

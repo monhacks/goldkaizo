@@ -1,4 +1,4 @@
-Icons: ; used only for BANK(Icons)
+SECTION "Mon Icons 1", ROMX
 
 NullIcon:
 PoliwagIcon:      INCBIN "gfx/icons/poliwag.2bpp"
@@ -24,6 +24,9 @@ VoltorbIcon:      INCBIN "gfx/icons/voltorb.2bpp"
 SquirtleIcon:     INCBIN "gfx/icons/squirtle.2bpp"
 BulbasaurIcon:    INCBIN "gfx/icons/bulbasaur.2bpp"
 CharmanderIcon:   INCBIN "gfx/icons/charmander.2bpp"
+
+SECTION "Mon Icons 2", ROMX
+
 CaterpillarIcon:  INCBIN "gfx/icons/caterpillar.2bpp"
 UnownIcon:        INCBIN "gfx/icons/unown.2bpp"
 GeodudeIcon:      INCBIN "gfx/icons/geodude.2bpp"
@@ -39,3 +42,14 @@ GyaradosIcon:     INCBIN "gfx/icons/gyarados.2bpp"
 SlowpokeIcon:     INCBIN "gfx/icons/slowpoke.2bpp"
 SudowoodoIcon:    INCBIN "gfx/icons/sudowoodo.2bpp"
 BigmonIcon:       INCBIN "gfx/icons/bigmon.2bpp"
+CyndaquilIcon:    INCBIN "gfx/icons/cyndaquil.2bpp"
+QuilavaIcon:      INCBIN "gfx/icons/quilava.2bpp"
+TyphlosionIcon:   INCBIN "gfx/icons/typhlosion.2bpp"
+ChikoritaIcon:    INCBIN "gfx/icons/chikorita.2bpp"
+BayleefIcon:      INCBIN "gfx/icons/bayleef.2bpp"
+MeganiumIcon:     INCBIN "gfx/icons/meganium.2bpp"
+TotodileIcon:     INCBIN "gfx/icons/totodile.2bpp"
+CroconawIcon:     INCBIN "gfx/icons/croconaw.2bpp"
+FeraligatrIcon:   INCBIN "gfx/icons/feraligatr.2bpp"
+
+

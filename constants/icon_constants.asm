@@ -39,6 +39,15 @@
 	const ICON_SLOWPOKE
 	const ICON_SUDOWOODO
 	const ICON_BIGMON
+	const ICON_CYNDAQUIL
+	const ICON_QUILAVA
+	const ICON_TYPHLOSION
+	const ICON_CHIKORITA
+	const ICON_BAYLEEF
+	const ICON_MEGANIUM
+	const ICON_TOTODILE
+	const ICON_CROCONAW
+	const ICON_FERALIGATR
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

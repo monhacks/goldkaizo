@@ -341,7 +341,7 @@ EcruteakGym_MapEvents:
 	warp_event  3,  4, ECRUTEAK_GYM, 3
 	warp_event  4,  4, ECRUTEAK_GYM, 3
 	warp_event  4,  5, ECRUTEAK_GYM, 3
-	warp_event  6,  7, ECRUTEAK_GYM, 3
+	warp_event  7,  9, ECRUTEAK_GYM, 3
 	warp_event  7,  4, ECRUTEAK_GYM, 3
 	warp_event  2,  6, ECRUTEAK_GYM, 3
 	warp_event  3,  6, ECRUTEAK_GYM, 3
@@ -379,5 +379,5 @@ EcruteakGym_MapEvents:
 	object_event  2,  7, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerSageJeffrey, -1
 	object_event  3, 13, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSagePing, -1
 	object_event  7,  5, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerMediumMartha, -1
-	object_event  7,  9, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerMediumGrace, -1
+	object_event  3, 10, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerMediumGrace, -1
 	object_event  7, 15, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakGymGuyScript, -1

@@ -134,7 +134,7 @@ MountMoonSquare_MapEvents:
 	db 0, 0 ; filler
 
 	db 3 ; warp events
-	warp_event 20,  5, MOUNT_MOON, 5
+	warp_event 20,  3, MOUNT_MOON, 5
 	warp_event 22, 11, MOUNT_MOON, 6
 	warp_event 13,  7, MOUNT_MOON_GIFT_SHOP, 1
 
@@ -143,7 +143,7 @@ MountMoonSquare_MapEvents:
 
 	db 2 ; bg events
 	bg_event  7,  7, BGEVENT_ITEM, MountMoonSquareHiddenMoonStone
-	bg_event 17,  7, BGEVENT_READ, DontLitterSign
+	bg_event 13,  9, BGEVENT_READ, DontLitterSign
 
 	db 3 ; object events
 	object_event  6,  6, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MT_MOON_SQUARE_CLEFAIRY

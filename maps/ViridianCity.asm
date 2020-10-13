@@ -227,7 +227,7 @@ ViridianCity_MapEvents:
 
 	db 6 ; bg events
 	bg_event 17, 17, BGEVENT_READ, ViridianCitySign
-	bg_event 27,  7, BGEVENT_READ, ViridianGymSign
+	bg_event 25,  7, BGEVENT_READ, ViridianGymSign
 	bg_event 19,  1, BGEVENT_READ, ViridianCityWelcomeSign
 	bg_event 21, 15, BGEVENT_READ, TrainerHouseSign
 	bg_event 24, 25, BGEVENT_READ, ViridianCityPokecenterSign

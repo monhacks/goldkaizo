@@ -251,13 +251,13 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
-	dw MoveFCDescription
+	dw YawnDescription
 	dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 
-MoveFCDescription:
+
 MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
@@ -1267,3 +1267,7 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+YawnDescription:
+	db   "May cause the foe"
+	next "to fall asleep.@"

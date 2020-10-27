@@ -252,7 +252,7 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
-	dw BattleAnim_252
+	dw BattleAnim_Yawn
 	dw BattleAnim_253
 	dw BattleAnim_254
 	dw BattleAnim_SweetScent2
@@ -281,7 +281,6 @@ BattleAnimations::
 	dw BattleAnim_HitConfusion
 
 BattleAnim_0:
-BattleAnim_252:
 BattleAnim_253:
 BattleAnim_254:
 BattleAnim_MirrorMove:
@@ -4590,6 +4589,20 @@ BattleAnim_BeatUp:
 	anim_obj ANIM_OBJ_00, 136, 48, $0
 	anim_wait 8
 	anim_call BattleAnim_ShowMon_0
+	anim_ret
+	
+BattleAnim_Yawn:
+	anim_1gfx ANIM_GFX_BUBBLE
+	anim_sound 32, 2, SFX_WATER_GUN
+	anim_obj ANIM_OBJ_BUBBLE, 64, 92, $c1
+	anim_wait 6
+	anim_sound 32, 2, SFX_WATER_GUN
+	anim_obj ANIM_OBJ_BUBBLE, 64, 92, $e1
+	anim_wait 6
+	anim_sound 32, 2, SFX_WATER_GUN
+	anim_obj ANIM_OBJ_BUBBLE, 64, 92, $d1
+	anim_wait 128
+	anim_wait 32
 	anim_ret
 
 BattleAnimSub_Drain:

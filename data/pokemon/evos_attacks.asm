@@ -836,7 +836,7 @@ AbraEvosAttacks:
 	db 0 ; no more level-up moves
 
 KadabraEvosAttacks:
-	db EVOLVE_TRADE, -1, ALAKAZAM
+	db EVOLVE_LEVEL, 50, ALAKAZAM
 	db 0 ; no more evolutions
 	db 1, PSYBEAM
 	db 1, RECOVER
@@ -880,7 +880,7 @@ MachopEvosAttacks:
 	db 0 ; no more level-up moves
 
 MachokeEvosAttacks:
-	db EVOLVE_TRADE, -1, MACHAMP
+	db EVOLVE_LEVEL, 50, MACHAMP
 	db 0 ; no more evolutions
 	db 1, DYNAMICPUNCH
 	db 1, ROCK_SLIDE
@@ -994,7 +994,7 @@ GeodudeEvosAttacks:
 	db 0 ; no more level-up moves
 
 GravelerEvosAttacks:
-	db EVOLVE_TRADE, -1, GOLEM
+	db EVOLVE_LEVEL, 50, GOLEM
 	db 0 ; no more evolutions
 	db 1, SELFDESTRUCT
 	db 1, SEISMIC_TOSS
@@ -1247,7 +1247,7 @@ GastlyEvosAttacks:
 	db 0 ; no more level-up moves
 
 HaunterEvosAttacks:
-	db EVOLVE_TRADE, -1, GENGAR
+	db EVOLVE_LEVEL, 50, GENGAR
 	db 0 ; no more evolutions
 	db 1, SHADOW_BALL
 	db 1, PSYCHIC_M

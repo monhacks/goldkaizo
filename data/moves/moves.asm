@@ -264,4 +264,4 @@ Moves:
 	move WHIRLPOOL,    EFFECT_TRAP_TARGET,        15, WATER,         70, 15,   0
 	move BEAT_UP,      EFFECT_BEAT_UP,            10, DARK,         100, 10,   0
 	move YAWN,         EFFECT_SLEEP,               0, NORMAL,        55, 10,   0
-	
+	move MAGICAL_LEAF, EFFECT_NORMAL_HIT,         80, GRASS,         95, 20,   0

@@ -252,13 +252,12 @@ MoveDescriptions::
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw YawnDescription
-	dw MoveFDDescription
+	dw MagicalLeafDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 
 
-MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
@@ -1271,3 +1270,7 @@ BeatUpDescription:
 YawnDescription:
 	db   "May cause the foe"
 	next "to fall asleep.@"
+	
+MagicalLeafDescription:
+	db   "Attacks with an"
+	next "unevadable leaf.@"

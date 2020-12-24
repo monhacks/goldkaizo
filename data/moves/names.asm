@@ -251,4 +251,4 @@ MoveNames::
 	db "WHIRLPOOL@"
 	db "BEAT UP@"
 	db "YAWN@"
-	
+	db "MAGICAL LEAF@"

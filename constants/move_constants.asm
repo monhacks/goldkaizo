@@ -259,6 +259,7 @@
 	const BEAT_UP      ; fb
 	const YAWN         ; fc
 	const MAGICAL_LEAF ; fd
+	const HURRICANE    ; fe
 NUM_ATTACKS EQU const_value - 1
 
 ; Battle animations use the same constants as the moves up to this point

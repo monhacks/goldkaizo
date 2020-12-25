@@ -253,12 +253,11 @@ MoveDescriptions::
 	dw BeatUpDescription
 	dw YawnDescription
 	dw MagicalLeafDescription
-	dw MoveFEDescription
+	dw HurricaneDescription
 	dw MoveFFDescription
 	dw Move00Description
 
 
-MoveFEDescription:
 MoveFFDescription:
 Move00Description:
 	db "?@"

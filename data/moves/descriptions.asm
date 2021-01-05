@@ -1273,3 +1273,7 @@ YawnDescription:
 MagicalLeafDescription:
 	db   "Attacks with an"
 	next "unevadable leaf.@"
+	
+HurricaneDescription:
+	db   "Attacks with a"
+	next "massive blow.@"

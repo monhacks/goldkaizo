@@ -4606,6 +4606,7 @@ BattleAnim_Yawn:
 	
 BattleAnim_MagicalLeaf:
 	anim_1gfx ANIM_GFX_PLANT
+	anim_bgeffect ANIM_BG_06, $0, $2, $0
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
 	anim_sound 0, 0, SFX_VINE_WHIP
 	anim_obj ANIM_OBJ_RAZOR_LEAF, 48, 80, $28

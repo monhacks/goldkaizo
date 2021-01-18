@@ -253,17 +253,17 @@ PidgeottoEvosAttacks:
 
 PidgeotEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WING_ATTACK
+	db 1, HURRICANE
 	db 1, DOUBLE_EDGE
 	db 1, HIDDEN_POWER
 	db 1, STEEL_WING
-	db 5, WING_ATTACK
-	db 9, WING_ATTACK
-	db 15, WING_ATTACK
-	db 23, WING_ATTACK
-	db 33, WING_ATTACK
-	db 46, WING_ATTACK
-	db 61, WING_ATTACK
+	db 5, HURRICANE
+	db 9, HURRICANE
+	db 15, HURRICANE
+	db 23, HURRICANE
+	db 33, HURRICANE
+	db 46, HURRICANE
+	db 61, HURRICANE
 	db 0 ; no more level-up moves
 
 RattataEvosAttacks:
@@ -468,16 +468,16 @@ NidokingEvosAttacks:
 ClefairyEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, CLEFABLE
 	db 0 ; no more evolutions
-	db 1, POUND
-	db 1, GROWL
-	db 4, ENCORE
-	db 8, SING
-	db 13, DOUBLESLAP
-	db 19, MINIMIZE
-	db 26, DEFENSE_CURL
-	db 34, METRONOME
-	db 43, MOONLIGHT
-	db 53, LIGHT_SCREEN
+	db 1, ICE_PUNCH
+	db 1, MAGICAL_LEAF
+	db 1, MEGA_PUNCH
+	db 1, SING
+	db 13, ICE_PUNCH
+	db 19, ICE_PUNCH
+	db 26, ICE_PUNCH
+	db 34, ICE_PUNCH
+	db 43, ICE_PUNCH
+	db 53, ICE_PUNCH
 	db 0 ; no more level-up moves
 
 ClefableEvosAttacks:
@@ -1395,8 +1395,8 @@ ExeggutorEvosAttacks:
 	db 1, EGG_BOMB
 	db 1, SLEEP_POWDER
 	db 1, PSYCHIC_M
-	db 1, GIGA_DRAIN
-	db 31, GIGA_DRAIN
+	db 1, MAGICAL_LEAF
+	db 31, MAGICAL_LEAF
 	db 0 ; no more level-up moves
 
 CuboneEvosAttacks:
@@ -1923,14 +1923,14 @@ KabutopsEvosAttacks:
 
 AerodactylEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, AEROBLAST
+	db 1, HURRICANE
 	db 1, ANCIENTPOWER
 	db 1, FIRE_BLAST
 	db 1, EARTHQUAKE
-	db 29, AEROBLAST
-	db 36, AEROBLAST
-	db 43, AEROBLAST
-	db 50, AEROBLAST
+	db 29, HURRICANE
+	db 36, HURRICANE
+	db 43, HURRICANE
+	db 50, HURRICANE
 	db 0 ; no more level-up moves
 
 SnorlaxEvosAttacks:
@@ -2093,16 +2093,16 @@ MeganiumEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BODY_SLAM
 	db 1, EARTHQUAKE
-	db 1, GIGA_DRAIN
+	db 1, MAGICAL_LEAF
 	db 1, SYNTHESIS
-	db 8, GIGA_DRAIN
-	db 12, GIGA_DRAIN
-	db 15, GIGA_DRAIN
-	db 23, GIGA_DRAIN
-	db 31, GIGA_DRAIN
-	db 41, GIGA_DRAIN
-	db 51, GIGA_DRAIN
-	db 61, GIGA_DRAIN
+	db 8, MAGICAL_LEAF
+	db 12, MAGICAL_LEAF
+	db 15, MAGICAL_LEAF
+	db 23, MAGICAL_LEAF
+	db 31, MAGICAL_LEAF
+	db 41, MAGICAL_LEAF
+	db 51, MAGICAL_LEAF
+	db 61, MAGICAL_LEAF
 	db 0 ; no more level-up moves
 
 CyndaquilEvosAttacks:
@@ -2466,9 +2466,9 @@ BellossomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SLEEP_POWDER
 	db 1, SLUDGE_BOMB
-	db 1, PETAL_DANCE
+	db 1, MAGICAL_LEAF
 	db 1, SYNTHESIS
-	db 55, PETAL_DANCE
+	db 55, MAGICAL_LEAF
 	db 0 ; no more level-up moves
 
 MarillEvosAttacks:

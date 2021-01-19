@@ -1144,7 +1144,7 @@ DoduoEvosAttacks:
 
 DodrioEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, DODRIO
+	db 1, TRI_ATTACK
 	db 1, STEEL_WING
 	db 1, DRILL_PECK
 	db 1, DOUBLE_EDGE

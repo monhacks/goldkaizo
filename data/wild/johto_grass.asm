@@ -2280,29 +2280,29 @@ JohtoGrassWildMons:
 	map_id ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, GEODUDE
-	db 2, SPEAROW
-	db 2, GEODUDE
-	db 2, RATTATA
-	db 3, SPEAROW
-	db 3, SANDSHREW
-	db 5, SANDSHREW
+	db 58, SANDSLASH
+	db 56, GRAVELER
+	db 58, DONPHAN
+	db 59, GOLEM
+	db 58, GLIGAR
+	db 55, CHARMANDER
+	db 60, SKARMORY
 	; day
-	db 3, GEODUDE
-	db 2, SPEAROW
-	db 2, GEODUDE
-	db 2, RATTATA
-	db 3, SPEAROW
-	db 3, SANDSHREW
-	db 5, SANDSHREW
+	db 58, SANDSLASH
+	db 56, GRAVELER
+	db 58, DONPHAN
+	db 59, GOLEM
+	db 58, GLIGAR
+	db 55, CHARMANDER
+	db 60, SKARMORY
 	; nite
-	db 3, GEODUDE
-	db 2, SPEAROW
-	db 2, GEODUDE
-	db 2, RATTATA
-	db 3, SPEAROW
-	db 3, SANDSHREW
-	db 5, SANDSHREW
+	db 58, SANDSLASH
+	db 56, GRAVELER
+	db 58, DONPHAN
+	db 59, GOLEM
+	db 58, GLIGAR
+	db 55, CHARMANDER
+	db 60, SKARMORY
 
 	map_id SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

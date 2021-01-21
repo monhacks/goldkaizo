@@ -203,7 +203,7 @@ Route46_MapEvents:
 	db 0 ; coord events
 
 	db 1 ; bg events
-	bg_event  9, 27, BGEVENT_READ, Route46Sign
+	bg_event  7, 25, BGEVENT_READ, Route46Sign
 
 	db 6 ; object events
 	object_event 15, 10, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerHikerBailey, -1

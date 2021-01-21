@@ -200,11 +200,15 @@ BlackBeltText_WeirdRadio:
 	done
 
 BlackBeltText_VoicesInMyHead:
-	text "Arooo! Voices in"
-	line "my head!"
+	text "Warning, trainers"
+	line "down ROUTE 45 are"
+	cont "difficult!"
 
-	para "Huh? I'm listening"
-	line "to my radio!"
+	para "If your #MON"
+	line "are around Level"
+	cont "70 then you are"
+	cont "all good down"
+	cont "there!"
 	done
 
 BlackthornCooltrainerF1Text:

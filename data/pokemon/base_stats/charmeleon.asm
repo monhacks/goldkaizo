@@ -1,6 +1,6 @@
 	db CHARMELEON ; 005
 
-	db  60,  75,  60,  80,  80,  75
+	db  58,  64,  58,  80,  80,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type

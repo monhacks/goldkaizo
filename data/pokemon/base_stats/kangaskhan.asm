@@ -1,6 +1,6 @@
 	db KANGASKHAN ; 115
 
-	db 112,  96,  81,  91,  70,  81
+	db 105,  95,  80,  90,  40,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

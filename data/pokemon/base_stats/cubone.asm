@@ -1,6 +1,6 @@
 	db CUBONE ; 104
 
-	db  60,  90,  95,  35,  50,  60
+	db  50,  50,  95,  35,  40,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, GROUND ; type

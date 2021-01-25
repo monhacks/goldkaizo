@@ -1,6 +1,6 @@
 	db GRANBULL ; 210
 
-	db  95, 120,  75,  48,  65,  65
+	db  90, 120,  75,  45,  60,  60
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

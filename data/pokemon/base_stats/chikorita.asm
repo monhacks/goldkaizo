@@ -1,6 +1,6 @@
 	db CHIKORITA ; 152
 
-	db  50,  55,  65,  45,  51,  75
+	db  45,  49,  65,  45,  49,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, GRASS ; type

@@ -1,6 +1,6 @@
 	db REMORAID ; 223
 
-	db  50,  65,  40,  65,  65,  50
+	db  35,  65,  35,  65,  65,  35
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

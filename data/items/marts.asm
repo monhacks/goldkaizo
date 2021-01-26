@@ -56,7 +56,7 @@ MartCherrygroveDex:
 MartViolet:
 	db 10 ; # items
 	db POKE_BALL
-	db POTION
+	db SUPER_POTION
 	db ESCAPE_ROPE
 	db ANTIDOTE
 	db PARLYZ_HEAL
@@ -70,10 +70,10 @@ MartViolet:
 MartAzalea:
 	db 9 ; # items
 	db CHARCOAL
-	db POKE_BALL
-	db POTION
-	db SUPER_POTION
-	db ESCAPE_ROPE
+	db GREAT_BALL
+	db HYPER_POTION
+	db MAX_POTION
+	db REVIVE
 	db REPEL
 	db ANTIDOTE
 	db PARLYZ_HEAL
@@ -82,8 +82,8 @@ MartAzalea:
 
 MartCianwood:
 	db 5 ; # items
-	db POTION
-	db SUPER_POTION
+	db ULTRA_BALL
+	db MAX_POTION
 	db HYPER_POTION
 	db FULL_HEAL
 	db REVIVE
@@ -91,8 +91,8 @@ MartCianwood:
 
 MartGoldenrod2F1:
 	db 7 ; # items
-	db POTION
-	db SUPER_POTION
+	db REVIVE
+	db HYPER_POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
@@ -105,7 +105,7 @@ MartGoldenrod2F2:
 	db POKE_BALL
 	db GREAT_BALL
 	db ESCAPE_ROPE
-	db REPEL
+	db SUPER_REPEL
 	db REVIVE
 	db FULL_HEAL
 	db POKE_DOLL
@@ -166,8 +166,8 @@ MartGoldenrod5F4:
 
 MartOlivine:
 	db 9 ; # items
-	db GREAT_BALL
-	db SUPER_POTION
+	db ULTRA_BALL
+	db MAX_POTION
 	db HYPER_POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
@@ -179,15 +179,15 @@ MartOlivine:
 
 MartEcruteak:
 	db 10 ; # items
-	db POKE_BALL
-	db GREAT_BALL
-	db POTION
-	db SUPER_POTION
+	db ULTRA_BALL
+	db MAX_POTION
+	db HYPER_POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
-	db BURN_HEAL
 	db ICE_HEAL
+	db SUPER_REPEL
+	db MAX_REPEL
 	db REVIVE
 	db -1 ; end
 
@@ -196,14 +196,14 @@ MartMahogany1:
 	db TINYMUSHROOM
 	db SLOWPOKETAIL
 	db POKE_BALL
-	db POTION
+	db HYPER_POTION
 	db -1 ; end
 
 MartMahogany2:
 	db 9 ; # items
 	db RAGECANDYBAR
-	db GREAT_BALL
-	db SUPER_POTION
+	db ULTRA_BALL
+	db MAX_POTION
 	db HYPER_POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
@@ -241,7 +241,7 @@ MartViridian:
 MartPewter:
 	db 7 ; # items
 	db GREAT_BALL
-	db SUPER_POTION
+	db HYPER_POTION
 	db SUPER_REPEL
 	db ANTIDOTE
 	db PARLYZ_HEAL
@@ -253,8 +253,8 @@ MartCerulean:
 	db 9 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
-	db SUPER_POTION
-	db SUPER_REPEL
+	db HYPER_POTION
+	db MAX_REPEL
 	db FULL_HEAL
 	db X_DEFEND
 	db X_ATTACK

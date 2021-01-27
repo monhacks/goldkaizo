@@ -77,7 +77,7 @@ MartAzalea:
 	db REPEL
 	db ANTIDOTE
 	db PARLYZ_HEAL
-	db FLOWER_MAIL
+	db ELIXER
 	db -1 ; end
 
 MartCianwood:
@@ -96,7 +96,7 @@ MartGoldenrod2F1:
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
-	db BURN_HEAL
+	db ELIXER
 	db ICE_HEAL
 	db -1 ; end
 

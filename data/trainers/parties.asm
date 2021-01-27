@@ -1167,8 +1167,8 @@ BeautyGroup:
 
 PokemaniacGroup:
 	; POKEMANIAC (1)
-	db "LARRY@", TRAINERTYPE_NORMAL
-	db 19, LICKITUNG
+	db "LARRY@", TRAINERTYPE_MOVES
+	db 19, LICKITUNG,     LICK, STOMP, SUPERSONIC, MEGA_PUNCH
 	db -1 ; end
 
 	; POKEMANIAC (2)
@@ -3051,8 +3051,8 @@ SageGroup:
 
 	; SAGE (9)
 	db "LI@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
-	db  7, BELLSPROUT
+	db 10, PSYDUCK
+	db 10, BELLSPROUT
 	db 10, HOOTHOOT
 	db -1 ; end
 

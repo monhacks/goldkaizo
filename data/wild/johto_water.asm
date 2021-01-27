@@ -140,17 +140,17 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_40
 	db 6 percent ; encounter rate
-	db 40, TENTACOOL
-	db 42, TENTACOOL
-	db 44, TENTACRUEL
+	db 30, TENTACOOL
+	db 32, TENTACOOL
+	db 34, TENTACRUEL
 
 	map_id ROUTE_41
 	db 6 percent ; encounter rate
 
 	IF DEF(_GOLD)
-	db 41, TENTACOOL
-	db 42, TENTACRUEL
-	db 44, MANTINE
+	db 31, TENTACOOL
+	db 32, TENTACRUEL
+	db 34, MANTINE
 
 	ELIF DEF(_SILVER)
 	db 20, TENTACOOL

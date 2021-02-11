@@ -19,7 +19,7 @@ MoveDescriptions::
 	dw WingAttackDescription
 	dw WhirlwindDescription
 	dw FlyDescription
-	dw BindDescription
+	dw ShadowClawDescription
 	dw SlamDescription
 	dw VineWhipDescription
 	dw StompDescription
@@ -149,7 +149,7 @@ MoveDescriptions::
 	dw SporeDescription
 	dw FlashDescription
 	dw PsywaveDescription
-	dw SplashDescription
+	dw IceFangDescription
 	dw AcidArmorDescription
 	dw CrabhammerDescription
 	dw ExplosionDescription
@@ -216,7 +216,7 @@ MoveDescriptions::
 	dw SleepTalkDescription
 	dw HealBellDescription
 	dw ReturnDescription
-	dw PresentDescription
+	dw WildStompDescription
 	dw FrustrationDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
@@ -338,9 +338,9 @@ FlyDescription:
 	db   "1st turn: Fly"
 	next "2nd turn: Attack@"
 
-BindDescription:
-	db   "Binds the target"
-	next "for 2-5 turns.@"
+ShadowClawDescription:
+	db   "An attack that may"
+	next "lower SPCL.DEF.@"
 
 SlamDescription:
 	db   "Slams the foe with"
@@ -858,9 +858,9 @@ PsywaveDescription:
 	db   "An attack with"
 	next "variable power.@"
 
-SplashDescription:
-	db   "Has no effect"
-	next "whatsoever.@"
+IceFangDescription:
+	db   "An icy fang. May"
+	next "cause freezing.@"
 
 AcidArmorDescription:
 	db   "Sharply raises the"
@@ -1126,9 +1126,9 @@ ReturnDescription:
 	db   "An attack that is"
 	next "based on loyalty.@"
 
-PresentDescription:
-	db   "A bomb that may"
-	next "restore HP.@"
+WildStompDescription:
+	db   "A move that stomps"
+	next "at the foe.@"
 
 FrustrationDescription:
 	db   "An attack based on"

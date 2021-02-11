@@ -175,7 +175,6 @@ GrowlitheEggMoves:
 
 PoliwagEggMoves:
 	db MIST
-	db SPLASH
 	db BUBBLEBEAM
 	db HAZE
 	db MIND_READER
@@ -337,7 +336,6 @@ RhyhornEggMoves:
 	db -1 ; end
 
 ChanseyEggMoves:
-	db PRESENT
 	db METRONOME
 	db HEAL_BELL
 	db -1 ; end
@@ -363,7 +361,6 @@ HorseaEggMoves:
 	db AURORA_BEAM
 	db OCTAZOOKA
 	db DISABLE
-	db SPLASH
 	db DRAGON_RAGE
 	db -1 ; end
 
@@ -508,28 +505,23 @@ ChinchouEggMoves:
 PichuEggMoves:
 	db REVERSAL
 	db BIDE
-	db PRESENT
 	db ENCORE
 	db DOUBLESLAP
 	db -1 ; end
 
 CleffaEggMoves:
-	db PRESENT
 	db METRONOME
 	db AMNESIA
 	db BELLY_DRUM
-	db SPLASH
 	db MIMIC
 	db -1 ; end
 
 IgglybuffEggMoves:
 	db PERISH_SONG
-	db PRESENT
 	db FAINT_ATTACK
 	db -1 ; end
 
 TogepiEggMoves:
-	db PRESENT
 	db MIRROR_MOVE
 	db PECK
 	db FORESIGHT
@@ -555,7 +547,6 @@ MareepEggMoves:
 
 MarillEggMoves:
 	db LIGHT_SCREEN
-	db PRESENT
 	db AMNESIA
 	db FUTURE_SIGHT
 	db BELLY_DRUM
@@ -648,7 +639,6 @@ SnubbullEggMoves:
 	db METRONOME
 	db FAINT_ATTACK
 	db REFLECT
-	db PRESENT
 	db CRUNCH
 	db HEAL_BELL
 	db LICK
@@ -720,7 +710,6 @@ DelibirdEggMoves:
 	db AURORA_BEAM
 	db QUICK_ATTACK
 	db FUTURE_SIGHT
-	db SPLASH
 	db RAPID_SPIN
 	db -1 ; end
 
@@ -788,7 +777,6 @@ MagbyEggMoves:
 	db -1 ; end
 
 MiltankEggMoves:
-	db PRESENT
 	db REVERSAL
 	db SEISMIC_TOSS
 	db -1 ; end

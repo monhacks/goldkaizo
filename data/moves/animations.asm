@@ -20,7 +20,7 @@ BattleAnimations::
 	dw BattleAnim_WingAttack
 	dw BattleAnim_Whirlwind
 	dw BattleAnim_Fly
-	dw BattleAnim_Bind
+	dw BattleAnim_ShadowClaw
 	dw BattleAnim_Slam
 	dw BattleAnim_VineWhip
 	dw BattleAnim_Stomp
@@ -150,7 +150,7 @@ BattleAnimations::
 	dw BattleAnim_Spore
 	dw BattleAnim_Flash
 	dw BattleAnim_Psywave
-	dw BattleAnim_Splash
+	dw BattleAnim_IceFang
 	dw BattleAnim_AcidArmor
 	dw BattleAnim_Crabhammer
 	dw BattleAnim_Explosion
@@ -217,7 +217,7 @@ BattleAnimations::
 	dw BattleAnim_SleepTalk
 	dw BattleAnim_HealBell
 	dw BattleAnim_Return
-	dw BattleAnim_Present
+	dw BattleAnim_WildStomp
 	dw BattleAnim_Frustration
 	dw BattleAnim_Safeguard
 	dw BattleAnim_PainSplit
@@ -1760,20 +1760,13 @@ BattleAnim_Bide:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Bind:
-	anim_1gfx ANIM_GFX_ROPE
-	anim_sound 0, 1, SFX_BIND
-	anim_obj ANIM_OBJ_48, 132, 64, $0
-	anim_wait 8
-	anim_obj ANIM_OBJ_49, 132, 56, $0
-	anim_wait 8
-	anim_obj ANIM_OBJ_48, 132, 48, $0
-	anim_wait 64
-	anim_sound 0, 1, SFX_BIND
-	anim_incobj 1
-	anim_incobj 2
-	anim_incobj 3
-	anim_wait 96
+BattleAnim_ShadowClaw:
+	anim_1gfx ANIM_GFX_CUT
+	anim_bgp $1b
+	anim_sound 0, 1, SFX_CUT
+	anim_obj ANIM_OBJ_3A, 152, 40, $0
+	anim_obj ANIM_OBJ_3A, 148, 36, $0
+	anim_wait 32
 	anim_ret
 
 BattleAnim_Wrap:
@@ -1999,14 +1992,12 @@ BattleAnim_AcidArmor:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Splash:
-	anim_1gfx ANIM_GFX_HIT
-	anim_sound 0, 0, SFX_VICEGRIP
-	anim_call BattleAnim_TargetObj_2Row
-	anim_bgeffect ANIM_BG_BOUNCE_DOWN, $0, $1, $0
-	anim_wait 96
-	anim_incbgeffect ANIM_BG_BOUNCE_DOWN
-	anim_call BattleAnim_ShowMon_0
+BattleAnim_IceFang:
+	anim_2gfx ANIM_GFX_ICE, ANIM_GFX_CUT
+	anim_obj ANIM_OBJ_BITE, 136, 56, $98
+	anim_obj ANIM_OBJ_BITE, 136, 56, $18
+	anim_call BattleAnimSub_Ice
+	anim_wait 8
 	anim_ret
 
 BattleAnim_Dig:
@@ -3947,32 +3938,19 @@ BattleAnim_Return:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Present:
-	anim_2gfx ANIM_GFX_STATUS, ANIM_GFX_BUBBLE
-	anim_sound 0, 1, SFX_PRESENT
-	anim_obj ANIM_OBJ_PRESENT, 64, 88, $6c
-	anim_wait 56
-	anim_obj ANIM_OBJ_AMNESIA, 104, 48, $0
-	anim_wait 48
-	anim_incobj 2
-	anim_if_param_equal $3, .heal
-	anim_incobj 1
-	anim_wait 1
-	anim_1gfx ANIM_GFX_EXPLOSION
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $12
+BattleAnim_WildStomp:
+	anim_1gfx ANIM_GFX_HIT
+	anim_bgeffect ANIM_BG_1F, $40, $2, $0
+	anim_wait 67
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $3
 .loop
-	anim_call BattleAnimSub_Explosion2
-	anim_wait 16
-	anim_jumpuntil .loop
-	anim_ret
-
-.heal
-	anim_sound 0, 1, SFX_METRONOME
-.loop2
-	anim_obj ANIM_OBJ_RECOVER, 132, 48, $24
-	anim_wait 8
-	anim_loop 8, .loop2
-	anim_wait 128
+	anim_sound 0, 1, SFX_MEGA_KICK
+	anim_obj ANIM_OBJ_07, 136, 56, $0
+	anim_obj ANIM_OBJ_00, 136, 56, $0
+	anim_wait 6
+	anim_obj ANIM_OBJ_07, 136, 56, $0
+	anim_wait 6
+	anim_loop 3, .loop
 	anim_ret
 
 BattleAnim_Frustration:

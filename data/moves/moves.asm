@@ -31,7 +31,7 @@ Moves:
 	move WING_ATTACK,  EFFECT_NORMAL_HIT,         60, FLYING,       100, 35,   0
 	move WHIRLWIND,    EFFECT_FORCE_SWITCH,        0, NORMAL,       100, 20,   0
 	move FLY,          EFFECT_FLY,                70, FLYING,        95, 15,   0
-	move BIND,         EFFECT_TRAP_TARGET,        15, NORMAL,        75, 20,   0
+	move SHADOW_CLAW,  EFFECT_SP_DEF_DOWN_HIT,    90, GHOST,        100, 15,  20
 	move SLAM,         EFFECT_NORMAL_HIT,         80, NORMAL,        75, 20,   0
 	move VINE_WHIP,    EFFECT_NORMAL_HIT,         35, GRASS,        100, 10,   0
 	move STOMP,        EFFECT_STOMP,              65, NORMAL,       100, 20,  30
@@ -161,7 +161,7 @@ Moves:
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,        100, 15,   0
 	move FLASH,        EFFECT_ACCURACY_DOWN,       0, NORMAL,        70, 20,   0
 	move PSYWAVE,      EFFECT_PSYWAVE,             1, PSYCHIC_TYPE,  80, 15,   0
-	move SPLASH,       EFFECT_SPLASH,              0, NORMAL,       100, 40,   0
+	move ICE_FANG,     EFFECT_FREEZE_HIT,         85, ICE,          100, 15,  10
 	move ACID_ARMOR,   EFFECT_DEFENSE_UP_2,        0, POISON,       100, 40,   0
 	move CRABHAMMER,   EFFECT_NORMAL_HIT,         90, WATER,         85, 10,   0
 	move EXPLOSION,    EFFECT_SELFDESTRUCT,      250, NORMAL,       100,  5,   0
@@ -228,7 +228,7 @@ Moves:
 	move SLEEP_TALK,   EFFECT_SLEEP_TALK,          0, NORMAL,       100, 10,   0
 	move HEAL_BELL,    EFFECT_HEAL_BELL,           0, NORMAL,       100,  5,   0
 	move RETURN,       EFFECT_RETURN,              1, NORMAL,       100, 20,   0
-	move PRESENT,      EFFECT_PRESENT,             1, NORMAL,        90, 15,   0
+	move WILD_STOMP,   EFFECT_PARALYZE_HIT,       95, NORMAL,       100, 15,  30
 	move FRUSTRATION,  EFFECT_FRUSTRATION,         1, NORMAL,       100, 20,   0
 	move SAFEGUARD,    EFFECT_SAFEGUARD,           0, NORMAL,       100, 25,   0
 	move PAIN_SPLIT,   EFFECT_PAIN_SPLIT,          0, NORMAL,       100, 20,   0

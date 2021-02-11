@@ -105,7 +105,7 @@ CharizardEvosAttacks:
 	db 1, FLAMETHROWER
 	db 1, EARTHQUAKE
 	db 1, SLASH
-	db 1, IRON_TAIL
+	db 1, SHADOW_CLAW
 	db 7, FLAMETHROWER
 	db 13, FLAMETHROWER
 	db 20, FLAMETHROWER
@@ -1042,18 +1042,18 @@ PonytaEvosAttacks:
 RapidashEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, IRON_TAIL
-	db 1, BODY_SLAM
+	db 1, WILD_STOMP
 	db 1, FIRE_BLAST
 	db 1, HYPNOSIS
-	db 4, BODY_SLAM
-	db 8, BODY_SLAM
-	db 13, BODY_SLAM
-	db 19, BODY_SLAM
-	db 26, BODY_SLAM
-	db 34, BODY_SLAM
-	db 40, BODY_SLAM
-	db 47, BODY_SLAM
-	db 61, BODY_SLAM
+	db 4, WILD_STOMP
+	db 8, WILD_STOMP
+	db 13, WILD_STOMP
+	db 19, WILD_STOMP
+	db 26, WILD_STOMP
+	db 34, WILD_STOMP
+	db 40, WILD_STOMP
+	db 47, WILD_STOMP
+	db 61, WILD_STOMP
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
@@ -1755,7 +1755,7 @@ TaurosEvosAttacks:
 MagikarpEvosAttacks:
 	db EVOLVE_LEVEL, 20, GYARADOS
 	db 0 ; no more evolutions
-	db 1, SPLASH
+	db 1, BUBBLEBEAM
 	db 1, TACKLE
 	db 30, FLAIL
 	db 0 ; no more level-up moves
@@ -2350,7 +2350,7 @@ PichuEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
-	db 1, PRESENT
+	db 1, DIZZY_PUNCH
 	db 6, THUNDER_WAVE
 	db 8, SWEET_KISS
 	db 11, THUNDERBOLT
@@ -2359,7 +2359,7 @@ PichuEvosAttacks:
 CleffaEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, CLEFAIRY
 	db 0 ; no more evolutions
-	db 1, PRESENT
+	db 1, ICY_WIND
 	db 1, METRONOME
 	db 1, SWEET_KISS
 	db 8, DIZZY_PUNCH
@@ -2369,7 +2369,7 @@ CleffaEvosAttacks:
 IgglybuffEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, JIGGLYPUFF
 	db 0 ; no more evolutions
-	db 1, PRESENT
+	db 1, FAINT_ATTACK
 	db 1, SWEET_KISS
 	db 1, FAINT_ATTACK
 	db 9, SING
@@ -2379,7 +2379,7 @@ IgglybuffEvosAttacks:
 TogepiEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
 	db 0 ; no more evolutions
-	db 1, PRESENT
+	db 1, FLAMETHROWER
 	db 1, METRONOME
 	db 7, SWEET_KISS
 	db 18, DOUBLE_EDGE

@@ -1,6 +1,6 @@
 	db ZUBAT ; 041
 
-	db  40,  45,  35,  55,  30,  40
+	db  50,  45,  35,  55,  30,  40
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, FLYING ; type

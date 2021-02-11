@@ -16,7 +16,7 @@ MoveGrammar:
 	db SMOG
 	db BONE_CLUB
 	db FLASH
-	db SPLASH
+	db ICE_FANG
 	db ACID_ARMOR
 	db BONEMERANG
 	db REST
@@ -61,7 +61,6 @@ MoveGrammar:
 	db VICEGRIP
 	db WING_ATTACK
 	db FLY
-	db BIND
 	db SLAM
 	db HORN_ATTACK
 	db WRAP

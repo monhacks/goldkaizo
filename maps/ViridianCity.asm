@@ -218,20 +218,20 @@ ViridianCity_MapEvents:
 
 	db 5 ; warp events
 	warp_event 32,  7, VIRIDIAN_GYM, 1
-	warp_event 21,  9, VIRIDIAN_NICKNAME_SPEECH_HOUSE, 1
+	warp_event 31, 13, VIRIDIAN_NICKNAME_SPEECH_HOUSE, 1
 	warp_event 23, 15, TRAINER_HOUSE_1F, 1
-	warp_event 29, 19, VIRIDIAN_MART, 2
-	warp_event 23, 25, VIRIDIAN_POKECENTER_1F, 1
+	warp_event 29, 25, VIRIDIAN_MART, 2
+	warp_event 21, 25, VIRIDIAN_POKECENTER_1F, 1
 
 	db 0 ; coord events
 
 	db 6 ; bg events
 	bg_event 17, 17, BGEVENT_READ, ViridianCitySign
-	bg_event 25,  7, BGEVENT_READ, ViridianGymSign
+	bg_event 19,  7, BGEVENT_READ, ViridianGymSign
 	bg_event 19,  1, BGEVENT_READ, ViridianCityWelcomeSign
 	bg_event 21, 15, BGEVENT_READ, TrainerHouseSign
 	bg_event 24, 25, BGEVENT_READ, ViridianCityPokecenterSign
-	bg_event 30, 19, BGEVENT_READ, ViridianCityMartSign
+	bg_event 32, 25, BGEVENT_READ, ViridianCityMartSign
 
 	db 4 ; object events
 	object_event 18,  5, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ViridianCityCoffeeGramps, -1

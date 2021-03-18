@@ -222,7 +222,7 @@ CianwoodCity_MapEvents:
 	db 0, 0 ; filler
 
 	db 6 ; warp events
-	warp_event 17, 41, MANIAS_HOUSE, 1
+	warp_event  6, 13, MANIAS_HOUSE, 1
 	warp_event  8, 43, CIANWOOD_GYM, 1
 	warp_event 23, 43, CIANWOOD_POKECENTER_1F, 1
 	warp_event 15, 47, CIANWOOD_PHARMACY, 1

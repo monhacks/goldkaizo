@@ -337,9 +337,9 @@ GoldenrodCity_MapEvents:
 	warp_event 29, 29, GOLDENROD_BIKE_SHOP, 1
 	warp_event 31, 21, GOLDENROD_HAPPINESS_RATER, 1
 	warp_event  5, 25, BILLS_FAMILYS_HOUSE, 1
-	warp_event  9, 13, GOLDENROD_MAGNET_TRAIN_STATION, 2
-	warp_event 33,  5, GOLDENROD_FLOWER_SHOP, 1
-	warp_event 15, 27, GOLDENROD_POKECENTER_1F, 1
+	warp_event 10, 13, GOLDENROD_MAGNET_TRAIN_STATION, 2
+	warp_event 29,  5, GOLDENROD_FLOWER_SHOP, 1
+	warp_event 14, 27, GOLDENROD_POKECENTER_1F, 1
 	warp_event 33,  9, GOLDENROD_PP_SPEECH_HOUSE, 1
 	warp_event 15,  7, GOLDENROD_NAME_RATER, 1
 	warp_event 24, 27, GOLDENROD_DEPT_STORE_1F, 1
@@ -352,11 +352,11 @@ GoldenrodCity_MapEvents:
 	db 0 ; coord events
 
 	db 11 ; bg events
-	bg_event 10, 14, BGEVENT_READ, GoldenrodCityStationSign
+	bg_event 11, 15, BGEVENT_READ, GoldenrodCityStationSign
 	bg_event  4, 17, BGEVENT_READ, GoldenrodCityRadioTowerSign
 	bg_event 26, 27, BGEVENT_READ, GoldenrodDeptStoreSign
 	bg_event 26,  9, BGEVENT_READ, GoldenrodGymSign
-	bg_event 22, 18, BGEVENT_READ, GoldenrodCitySign
+	bg_event 22, 17, BGEVENT_READ, GoldenrodCitySign
 	bg_event 28, 30, BGEVENT_READ, GoldenrodCityBikeShopSign
 	bg_event 16, 22, BGEVENT_READ, GoldenrodCityGameCornerSign
 	bg_event 12,  7, BGEVENT_READ, GoldenrodCityNameRaterSign

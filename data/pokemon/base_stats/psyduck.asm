@@ -1,6 +1,6 @@
 	db PSYDUCK ; 054
 
-	db  60,  52,  48,  55,  65,  50
+	db  50,  52,  48,  55,  65,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

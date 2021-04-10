@@ -1,6 +1,6 @@
 	db STARMIE ; 121
 
-	db  80,  75,  85, 115, 100,  85
+	db  60,  75,  85, 115, 100,  85
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, PSYCHIC_TYPE ; type

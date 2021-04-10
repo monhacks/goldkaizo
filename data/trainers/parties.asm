@@ -1502,8 +1502,8 @@ SabrinaGroup:
 BugCatcherGroup:
 	; BUG_CATCHER (1)
 	db "DON@", TRAINERTYPE_NORMAL
-	db  5, LEDYBA
 	db  5, CATERPIE
+	db  5, METAPOD
 	db -1 ; end
 
 	; BUG_CATCHER (2)

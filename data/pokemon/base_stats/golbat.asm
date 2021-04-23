@@ -1,6 +1,6 @@
 	db GOLBAT ; 042
 
-	db  75,  80,  70,  90,  65,  75
+	db  85,  90,  80, 110,  80,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, FLYING ; type

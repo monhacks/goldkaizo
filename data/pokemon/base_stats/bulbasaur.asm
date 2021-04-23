@@ -1,6 +1,6 @@
 	db BULBASAUR ; 001
 
-	db  45,  49,  49,  45,  65,  65
+	db  50,  55,  50,  45,  65,  75
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, POISON ; type

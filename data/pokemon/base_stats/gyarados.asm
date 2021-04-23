@@ -1,6 +1,6 @@
 	db GYARADOS ; 130
 
-	db  95, 125,  79,  81,  60, 100
+	db  95, 126,  81,  82,  60, 101
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, FLYING ; type

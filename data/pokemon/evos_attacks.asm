@@ -1762,7 +1762,7 @@ MagikarpEvosAttacks:
 
 GyaradosEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BLIZZARD
+	db 1, ICE_FANG
 	db 1, HYDRO_PUMP
 	db 1, THUNDERBOLT
 	db 1, BODY_SLAM

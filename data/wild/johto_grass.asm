@@ -1812,7 +1812,7 @@ JohtoGrassWildMons:
 	db 22, SPEAROW
 	db 22, DROWZEE
 	db 22, JIGGLYPUFF
-	db 22, DITTO
+	db 22, EEVEE
 	db 22, DITTO
 	; day
 	db 22, SNUBBULL
@@ -1820,7 +1820,7 @@ JohtoGrassWildMons:
 	db 22, MEOWTH
 	db 22, NATU
 	db 22, JIGGLYPUFF
-	db 22, DITTO
+	db 22, EEVEE
 	db 22, DROWZEE
 	; nite
 	db 22, DROWZEE
@@ -1828,7 +1828,7 @@ JohtoGrassWildMons:
 	db 22, HOOTHOOT
 	db 22, NATU
 	db 22, JIGGLYPUFF
-	db 22, DITTO
+	db 22, EEVEE
 	db 22, DITTO
 
 	map_id ROUTE_35

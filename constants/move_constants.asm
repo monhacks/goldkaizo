@@ -25,7 +25,7 @@
 	const WING_ATTACK  ; 11
 	const WHIRLWIND    ; 12
 	const FLY          ; 13
-	const SHADOW_CLAW  ; 14
+	const CLOSE_COMBAT ; 14
 	const SLAM         ; 15
 	const VINE_WHIP    ; 16
 	const STOMP        ; 17
@@ -155,7 +155,7 @@
 	const SPORE        ; 93
 	const FLASH        ; 94
 	const PSYWAVE      ; 95
-	const ICE_FANG     ; 96
+	const ICICLE_SPEAR ; 96
 	const ACID_ARMOR   ; 97
 	const CRABHAMMER   ; 98
 	const EXPLOSION    ; 99
@@ -222,7 +222,7 @@
 	const SLEEP_TALK   ; d6
 	const HEAL_BELL    ; d7
 	const RETURN       ; d8
-	const WILD_STOMP   ; d9
+	const COVET        ; d9
 	const FRUSTRATION  ; da
 	const SAFEGUARD    ; db
 	const PAIN_SPLIT   ; dc

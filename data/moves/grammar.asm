@@ -16,7 +16,7 @@ MoveGrammar:
 	db SMOG
 	db BONE_CLUB
 	db FLASH
-	db ICE_FANG
+	db ICICLE_SPEAR
 	db ACID_ARMOR
 	db BONEMERANG
 	db REST

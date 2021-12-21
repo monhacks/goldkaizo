@@ -1,6 +1,6 @@
 	db ELECTRODE ; 101
 
-	db  60,  50,  70, 140,  80,  80
+	db  62,  55,  70, 140, 109,  94
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type

@@ -28,7 +28,7 @@ StallMoves:
 	db BIDE
 	db AMNESIA
 	db TRANSFORM
-	db ICE_FANG
+	db ICICLE_SPEAR
 	db ACID_ARMOR
 	db SHARPEN
 	db CONVERSION

@@ -93,7 +93,7 @@ MartGoldenrod2F1:
 	db 7 ; # items
 	db REVIVE
 	db HYPER_POTION
-	db ANTIDOTE
+	db FULL_HEAL
 	db PARLYZ_HEAL
 	db AWAKENING
 	db ELIXER
@@ -106,10 +106,10 @@ MartGoldenrod2F2:
 	db GREAT_BALL
 	db ESCAPE_ROPE
 	db SUPER_REPEL
-	db REVIVE
-	db FULL_HEAL
-	db POKE_DOLL
-	db FLOWER_MAIL
+	db FIRE_STONE
+	db THUNDERSTONE
+	db WATER_STONE
+	db LEAF_STONE
 	db -1 ; end
 
 MartGoldenrod3F:

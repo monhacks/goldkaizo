@@ -1,6 +1,6 @@
 	db VENOMOTH ; 049
 
-	db  70,  65,  60,  90,  90,  75
+	db  85,  65,  65, 100, 135, 105
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, POISON ; type

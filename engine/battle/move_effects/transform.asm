@@ -89,7 +89,7 @@ BattleCommand_Transform:
 	inc de
 	and a
 	jr z, .done_move
-	cp SKETCH
+	cp SIGNAL_BEAM
 	ld a, 1
 	jr z, .done_move
 	ld a, 5

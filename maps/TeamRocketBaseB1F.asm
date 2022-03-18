@@ -746,9 +746,9 @@ TeamRocketBaseB1F_MapEvents:
 	coord_event  8, 16, SCENE_DEFAULT, SecurityCamera5
 	; There are spots on the floor that trigger a Pokémon battle.
 	; Each Pokémon (Voltorb, Koffing, Geodude) knows Selfdestruct.
-	coord_event  2,  7, SCENE_DEFAULT, ExplodingTrap1
-	coord_event  3,  7, SCENE_DEFAULT, ExplodingTrap2
-	coord_event  4,  7, SCENE_DEFAULT, ExplodingTrap3
+	coord_event  2,  8, SCENE_DEFAULT, ExplodingTrap1
+	coord_event  2,  9, SCENE_DEFAULT, ExplodingTrap2
+	coord_event  4,  8, SCENE_DEFAULT, ExplodingTrap3
 	coord_event  1,  8, SCENE_DEFAULT, ExplodingTrap4
 	coord_event  3,  8, SCENE_DEFAULT, ExplodingTrap5
 	coord_event  5,  8, SCENE_DEFAULT, ExplodingTrap6
@@ -782,8 +782,8 @@ TeamRocketBaseB1F_MapEvents:
 
 	db 6 ; object events
 	object_event  0,  0, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_SECURITY_GRUNTS
-	object_event  2,  4, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerGruntM16, EVENT_TEAM_ROCKET_BASE_POPULATION
-	object_event 18, 12, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerScientistJed, EVENT_TEAM_ROCKET_BASE_POPULATION
-	object_event 27,  6, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, TeamRocketBaseB1FHyperPotion, EVENT_TEAM_ROCKET_BASE_B1F_HYPER_POTION
+	object_event  1,  4, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerGruntM16, EVENT_TEAM_ROCKET_BASE_POPULATION
+	object_event 26, 14, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerScientistJed, EVENT_TEAM_ROCKET_BASE_POPULATION
+	object_event 28, 16, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, TeamRocketBaseB1FHyperPotion, EVENT_TEAM_ROCKET_BASE_B1F_HYPER_POTION
 	object_event 14, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, TeamRocketBaseB1FNugget, EVENT_TEAM_ROCKET_BASE_B1F_NUGGET
-	object_event 21, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, TeamRocketBaseB1FXAccuracy, EVENT_TEAM_ROCKET_BASE_B1F_X_ACCURACY
+	object_event 25, 13, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, TeamRocketBaseB1FXAccuracy, EVENT_TEAM_ROCKET_BASE_B1F_X_ACCURACY

@@ -165,7 +165,7 @@ MoveDescriptions::
 	dw SlashDescription
 	dw SubstituteDescription
 	dw StruggleDescription
-	dw SketchDescription
+	dw SignalBeamDescription
 	dw TripleKickDescription
 	dw ThiefDescription
 	dw SpiderWebDescription
@@ -922,9 +922,9 @@ StruggleDescription:
 	db   "Used only if all"
 	next "PP are exhausted.@"
 
-SketchDescription:
-	db   "Copies the foe's"
-	next "move permanently.@"
+SignalBeamDescription:
+	db   "An attack that may"
+	next "confuse the foe.@"
 
 TripleKickDescription:
 	db   "Hits three times"

@@ -1333,7 +1333,7 @@ HandleMysteryberry:
 .restore
 	; lousy hack
 	ld a, [hl]
-	cp SKETCH
+	cp SIGNAL_BEAM
 	ld b, 1
 	jr z, .sketch
 	ld b, 5

@@ -56,7 +56,7 @@ BattleCommand_Sketch:
 .find_sketch
 	dec c
 	ld a, [hld]
-	cp SKETCH
+	cp SIGNAL_BEAM
 	jr nz, .find_sketch
 	inc hl
 ; The Sketched move is loaded to that slot.

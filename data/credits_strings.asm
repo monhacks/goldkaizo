@@ -53,7 +53,7 @@ Credits_KimikoNakamichi::     db "  KIMIKO NAKAMICHI@"
 Credits_End::                 db "END@"                       ; "おしまい@"
 Credits_Staff::               db "      #MON"                 ; "ポケットモンスター"
                             IF DEF(_GOLD)
-                            next "    GOLD KAIZO"
+                            next "    GOLD SUPREME"
                             ELIF DEF(_SILVER)
                             next "   SILVER VERSION"
                             ENDC

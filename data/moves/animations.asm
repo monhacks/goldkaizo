@@ -166,7 +166,7 @@ BattleAnimations::
 	dw BattleAnim_Slash
 	dw BattleAnim_Substitute
 	dw BattleAnim_Struggle
-	dw BattleAnim_Sketch
+	dw BattleAnim_SignalBeam
 	dw BattleAnim_TripleKick
 	dw BattleAnim_Thief
 	dw BattleAnim_SpiderWeb
@@ -1764,6 +1764,7 @@ BattleAnim_CloseCombat:
 	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_EXPLOSION
 	anim_bgeffect ANIM_BG_06, $0, $2, $0
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
+	anim_wait 64
 	anim_sound 0, 1, SFX_COMET_PUNCH
 	anim_obj ANIM_OBJ_0A, 136, 56, $43
 	anim_wait 16
@@ -3101,16 +3102,12 @@ BattleAnim_Struggle:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Sketch:
-	anim_1gfx ANIM_GFX_OBJECTS
-	anim_call BattleAnim_TargetObj_1Row
-	anim_bgeffect ANIM_BG_1A, $0, $1, $20
-	anim_sound 0, 0, SFX_SKETCH
-	anim_obj ANIM_OBJ_SKETCH, 72, 80, $0
-	anim_wait 80
-	anim_incbgeffect ANIM_BG_1A
-	anim_call BattleAnim_ShowMon_0
-	anim_wait 1
+BattleAnim_SignalBeam:
+	anim_1gfx ANIM_GFX_BEAM
+	anim_bgp $1b
+	anim_bgeffect ANIM_BG_06, $0, $2, $0
+	anim_call BattleAnimSub_ShakeEnemy
+	anim_wait 16
 	anim_ret
 
 BattleAnim_TripleKick:
@@ -4642,12 +4639,16 @@ BattleAnim_MagicalLeaf:
 	anim_ret
 	
 BattleAnim_Hurricane:
-	anim_1gfx ANIM_GFX_WIND
-.loop
+	anim_2gfx ANIM_GFX_WIND, ANIM_GFX_HIT
+.loop1
 	anim_sound 0, 0, SFX_RAZOR_WIND
-	anim_obj ANIM_OBJ_GUST, 64, 112, $0
+	anim_obj ANIM_OBJ_GUST, 136, 72, $0
 	anim_wait 6
-	anim_loop 9, .loop
+	anim_loop 9, .loop1
+.loop2
+	anim_sound 0, 0, SFX_RAZOR_WIND
+	anim_wait 8
+	anim_loop 8, .loop2
 	anim_incobj 1
 	anim_incobj 2
 	anim_incobj 3
@@ -4657,12 +4658,27 @@ BattleAnim_Hurricane:
 	anim_incobj 7
 	anim_incobj 8
 	anim_incobj 9
-	anim_sound 16, 2, SFX_WHIRLWIND
-	anim_wait 128
-	anim_if_param_equal $0, .done
-	anim_bgeffect ANIM_BG_26, $0, $0, $0
 	anim_wait 64
-.done
+	anim_obj ANIM_OBJ_01, 144, 64, $18
+.loop3
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_wait 8
+	anim_loop 4, .loop3
+	anim_obj ANIM_OBJ_01, 128, 32, $18
+.loop4
+	anim_sound 0, 1, SFX_RAZOR_WIND
+	anim_wait 8
+	anim_loop 4, .loop4
+	anim_incobj 1
+	anim_incobj 2
+	anim_incobj 3
+	anim_incobj 4
+	anim_incobj 5
+	anim_incobj 6
+	anim_incobj 7
+	anim_incobj 8
+	anim_incobj 9
+	anim_wait 32
 	anim_ret
 
 BattleAnimSub_Drain:

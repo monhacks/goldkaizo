@@ -384,10 +384,10 @@ SandshrewEvosAttacks:
 
 SandslashEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, FURY_SWIPES
-	db 1, PIN_MISSILE
-	db 1, SPIKES
-	db 1, MAGNITUDE
+	db 1, EARTHQUAKE
+	db 1, ROCK_SLIDE
+	db 1, SUBMISSION
+	db 1, SLASH
 	db 25, EARTHQUAKE
 	db 27, ROCK_SLIDE
 	db 29, SUBMISSION
@@ -496,7 +496,7 @@ VulpixEvosAttacks:
 	db 1, TAIL_WHIP
 	db 7, ROAR
 	db 13, FLAME_WHEEL
-	db 16, BITE
+	db 16, SWIFT
 	db 17, CONFUSE_RAY
 	db 21, FLAMETHROWER
 	db 25, BITE
@@ -632,7 +632,7 @@ VenonatEvosAttacks:
 	db 7, DISABLE
 	db 12, POISONPOWDER
 	db 20, PSYBEAM
-	db 25, STUN_SPORE
+	db 25, SIGNAL_BEAM
 	db 28, STUN_SPORE
 	db 33, STUN_SPORE
 	db 36, SLEEP_POWDER
@@ -1095,8 +1095,8 @@ MagnemiteEvosAttacks:
 	db 1, THUNDERSHOCK
 	db 1, THUNDER_WAVE
 	db 10, SUPERSONIC
-	db 18, SONICBOOM
-	db 24, THUNDERBOLT
+	db 14, SONICBOOM
+	db 18, SPARK
 	db 27, THUNDERBOLT
 	db 33, THUNDERBOLT
 	db 39, THUNDERBOLT
@@ -1166,13 +1166,13 @@ SeelEvosAttacks:
 	db 10, REST
 	db 20, AURORA_BEAM
 	db 23, BUBBLEBEAM
-	db 32, ICE_BEAM
-	db 39, SAFEGUARD
+	db 29, ICE_BEAM
+	db 32, SIGNAL_BEAM
 	db 0 ; no more level-up moves
 
 DewgongEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HORN_DRILL
+	db 1, SIGNAL_BEAM
 	db 1, BODY_SLAM
 	db 1, SURF
 	db 1, BLIZZARD
@@ -1465,10 +1465,10 @@ HitmonchanEvosAttacks:
 
 LickitungEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LICK
-	db 1, SUPERSONIC
-	db 1, STOMP
-	db 1, ROLLOUT
+	db 1, EARTHQUAKE
+	db 1, BODY_SLAM
+	db 1, ICE_BEAM
+	db 1, AMNESIA
 	db 25, EARTHQUAKE
 	db 27, BODY_SLAM
 	db 29, ICE_BEAM
@@ -2328,7 +2328,7 @@ ChinchouEvosAttacks:
 	db 11, THUNDER_WAVE
 	db 20, BUBBLEBEAM
 	db 25, SPARK
-	db 29, CONFUSE_RAY
+	db 29, SIGNAL_BEAM
 	db 37, THUNDERBOLT
 	db 41, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2336,7 +2336,7 @@ ChinchouEvosAttacks:
 LanturnEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ICE_BEAM
-	db 1, PSYBEAM
+	db 1, SIGNAL_BEAM
 	db 1, THUNDERBOLT
 	db 1, SURF
 	db 13, SURF
@@ -2440,13 +2440,13 @@ FlaaffyEvosAttacks:
 	db EVOLVE_LEVEL, 30, AMPHAROS
 	db 0 ; no more evolutions
 	db 1, THUNDERBOLT
-	db 1, IRON_TAIL
+	db 1, SIGNAL_BEAM
 	db 1, BODY_SLAM
 	db 1, FIRE_PUNCH
 	db 18, THUNDERBOLT
-	db 27, THUNDERBOLT
-	db 36, THUNDERBOLT
-	db 45, THUNDERBOLT
+	db 20, THUNDERBOLT
+	db 24, SIGNAL_BEAM
+	db 28, SIGNAL_BEAM
 	db 0 ; no more level-up moves
 
 AmpharosEvosAttacks:
@@ -2457,7 +2457,7 @@ AmpharosEvosAttacks:
 	db 1, THUNDERBOLT
 	db 9, THUNDERBOLT
 	db 18, THUNDER_WAVE
-	db 27, COTTON_SPORE
+	db 27, SIGNAL_BEAM
 	db 30, THUNDERPUNCH
 	db 42, LIGHT_SCREEN
 	db 57, THUNDER
@@ -2874,10 +2874,10 @@ HeracrossEvosAttacks:
 
 SneaselEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SHADOW_BALL
 	db 1, SLASH
-	db 1, ICY_WIND
-	db 1, SCREECH
-	db 1, FAINT_ATTACK
+	db 1, BLIZZARD
+	db 1, DIG
 	db 25, SHADOW_BALL
 	db 27, SLASH
 	db 29, BLIZZARD
@@ -2986,8 +2986,8 @@ RemoraidEvosAttacks:
 	db 1, MUD_SLAP
 	db 20, OCTAZOOKA
 	db 22, PSYBEAM
-	db 24, ICE_BEAM
-	db 26, WATERFALL
+	db 24, SIGNAL_BEAM
+	db 26, ICE_BEAM
 	db 0 ; no more level-up moves
 
 OctilleryEvosAttacks:
@@ -2995,7 +2995,7 @@ OctilleryEvosAttacks:
 	db 1, PSYCHIC_M
 	db 1, BLIZZARD
 	db 1, SURF
-	db 1, SLUDGE_BOMB
+	db 1, SIGNAL_BEAM
 	db 22, SURF
 	db 25, SURF
 	db 38, SURF
@@ -3125,16 +3125,16 @@ StantlerEvosAttacks:
 
 SmeargleEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SKETCH
-	db 11, SKETCH
-	db 21, SKETCH
-	db 31, SKETCH
-	db 41, SKETCH
-	db 51, SKETCH
-	db 61, SKETCH
-	db 71, SKETCH
-	db 81, SKETCH
-	db 91, SKETCH
+	db 1, SPORE
+	db 1, THUNDERBOLT
+	db 1, ICE_BEAM
+	db 1, SHADOW_BALL
+	db 20, SPORE
+	db 26, THUNDERBOLT
+	db 32, THUNDERBOLT
+	db 38, ICE_BEAM
+	db 44, SHADOW_BALL
+	db 50, SHADOW_BALL
 	db 0 ; no more level-up moves
 
 TyrogueEvosAttacks:

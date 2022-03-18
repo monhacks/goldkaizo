@@ -164,7 +164,7 @@ MoveNames::
 	db "SLASH@"
 	db "SUBSTITUTE@"
 	db "STRUGGLE@"
-	db "SKETCH@"
+	db "SIGNAL BEAM@"
 	db "TRIPLE KICK@"
 	db "THIEF@"
 	db "SPIDER WEB@"

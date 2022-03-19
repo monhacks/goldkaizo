@@ -1097,26 +1097,26 @@ MagnemiteEvosAttacks:
 	db 10, SUPERSONIC
 	db 14, SONICBOOM
 	db 18, SPARK
-	db 27, THUNDERBOLT
-	db 33, THUNDERBOLT
-	db 39, THUNDERBOLT
-	db 45, THUNDERBOLT
+	db 24, THUNDERBOLT
+	db 27, SIGNAL_BEAM
+	db 31, THUNDERBOLT
+	db 34, THUNDERBOLT
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THUNDERBOLT
 	db 1, THUNDER_WAVE
-	db 1, HIDDEN_POWER
+	db 1, SIGNAL_BEAM
 	db 1, TRI_ATTACK
 	db 6, TRI_ATTACK
 	db 11, TRI_ATTACK
-	db 16, TRI_ATTACK
-	db 21, TRI_ATTACK
-	db 27, TRI_ATTACK
-	db 35, TRI_ATTACK
-	db 43, TRI_ATTACK
-	db 53, TRI_ATTACK
+	db 16, SIGNAL_BEAM
+	db 21, SIGNAL_BEAM
+	db 27, THUNDER_WAVE
+	db 35, THUNDER_WAVE
+	db 43, THUNDERBOLT
+	db 53, THUNDERBOLT
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:

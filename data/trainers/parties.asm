@@ -704,11 +704,11 @@ LassGroup:
 
 	; LASS (3)
 	db "ALICE@", TRAINERTYPE_NORMAL
-	db 104, VICTREEBEL
-	db 104, CHARIZARD
-	db 104, SNEASEL
-	db 104, POLIWRATH
-	db 104, ELECTABUZZ
+	db 79, VICTREEBEL
+	db 80, CHARIZARD
+	db 79, SNEASEL
+	db 80, POLIWRATH
+	db 80, ELECTABUZZ
 	db -1 ; end
 
 	; LASS (4)
@@ -725,9 +725,9 @@ LassGroup:
 
 	; LASS (6)
 	db "LINDA@", TRAINERTYPE_NORMAL
-	db 105, TAUROS
-	db 105, TOGETIC
-	db 105, MEGANIUM
+	db 80, TAUROS
+	db 81, TOGETIC
+	db 80, MEGANIUM
 	db -1 ; end
 
 	; LASS (7)
@@ -746,9 +746,9 @@ LassGroup:
 
 	; LASS (9)
 	db "MICHELLE@", TRAINERTYPE_NORMAL
-	db 102, VENUSAUR
-	db 102, MEGANIUM
-	db 102, JUMPLUFF
+	db 71, VENUSAUR
+	db 72, MEGANIUM
+	db 71, JUMPLUFF
 	db -1 ; end
 
 	; LASS (10)
@@ -1148,9 +1148,10 @@ BeautyGroup:
 
 	; BEAUTY (14)
 	db "JULIA@", TRAINERTYPE_NORMAL
-	db 102, VICTREEBEL
-	db 102, EXEGGUTOR
-	db 102, PARASECT
+	db 71, VICTREEBEL
+	db 71, EXEGGUTOR
+	db 71, PARASECT
+	db 71, SKIPLOOM
 	db -1 ; end
 
 	; BEAUTY (15)
@@ -1880,9 +1881,9 @@ SwimmerMGroup:
 
 	; SWIMMERM (21)
 	db "PARKER@", TRAINERTYPE_NORMAL
-	db 95, FERALIGATR
-	db 95, GYARADOS
-	db 95, KINGDRA
+	db 76, FERALIGATR
+	db 77, GYARADOS
+	db 76, KINGDRA
 	db -1 ; end
 
 SwimmerFGroup:
@@ -1993,13 +1994,13 @@ SwimmerFGroup:
 
 	; SWIMMERF (18)
 	db "DIANA@", TRAINERTYPE_NORMAL
-	db 96, GOLDUCK
+	db 77, GOLDUCK
 	db -1 ; end
 
 	; SWIMMERF (19)
 	db "BRIANA@", TRAINERTYPE_NORMAL
-	db 96, SEAKING
-	db 96, KINGDRA
+	db 76, SEAKING
+	db 77, KINGDRA
 	db -1 ; end
 
 SailorGroup:
@@ -2773,7 +2774,8 @@ PicnickerGroup:
 
 	; PICNICKER (5)
 	db "CINDY@", TRAINERTYPE_NORMAL
-	db 105, NIDOQUEEN
+	db 82, NIDOQUEEN
+	db 81, NIDOKING
 	db -1 ; end
 
 	; PICNICKER (6)
@@ -2860,7 +2862,7 @@ PicnickerGroup:
 
 	; PICNICKER (19)
 	db "TANYA@", TRAINERTYPE_NORMAL
-	db 102, EXEGGUTOR
+	db 73, EXEGGUTOR
 	db -1 ; end
 
 	; PICNICKER (20)
@@ -2905,7 +2907,9 @@ CamperGroup:
 
 	; CAMPER (5)
 	db "BARRY@", TRAINERTYPE_NORMAL
-	db 105, NIDOKING
+	db 82, GENGAR
+	db 81, WEEZING
+	db 81, ARBOK
 	db -1 ; end
 
 	; CAMPER (6)
@@ -2991,7 +2995,7 @@ CamperGroup:
 
 	; CAMPER (18)
 	db "JERRY@", TRAINERTYPE_NORMAL
-	db 108, SANDSLASH
+	db 92, SANDSLASH
 	db -1 ; end
 
 	; CAMPER (19)
@@ -3276,14 +3280,14 @@ TwinsGroup:
 
 	; TWINS (5)
 	db "JO & ZOE@", TRAINERTYPE_NORMAL
-	db 102, VICTREEBEL
-	db 102, VILEPLUME
+	db 72, VICTREEBEL
+	db 73, VILEPLUME
 	db -1 ; end
 
 	; TWINS (6)
 	db "JO & ZOE@", TRAINERTYPE_NORMAL
-	db 102, VICTREEBEL
-	db 102, VILEPLUME
+	db 72, VICTREEBEL
+	db 73, VILEPLUME
 	db -1 ; end
 
 	; TWINS (7)

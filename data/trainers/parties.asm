@@ -522,14 +522,14 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (11)
 	db "NATE@", TRAINERTYPE_NORMAL
-	db 85, LEDIAN
-	db 85, EXEGGUTOR
+	db 67, LEDIAN
+	db 68, EXEGGUTOR
 	db -1 ; end
 
 	; SCHOOLBOY (12)
 	db "RICKY@", TRAINERTYPE_NORMAL
-	db 85, AIPOM
-	db 85, TOGETIC
+	db 67, AIPOM
+	db 68, TOGETIC
 	db -1 ; end
 
 	; SCHOOLBOY (13)
@@ -910,9 +910,9 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (16)
 	db "SEAN@", TRAINERTYPE_NORMAL
-	db 85, FLAREON
-	db 85, TANGELA
-	db 85, TAUROS
+	db 67, FLAREON
+	db 68, TANGELA
+	db 67, TAUROS
 	db -1 ; end
 
 	; COOLTRAINERM (17)
@@ -1444,7 +1444,7 @@ GentlemanGroup:
 
 	; GENTLEMAN (2)
 	db "EDWARD@", TRAINERTYPE_NORMAL
-	db 85, PERSIAN
+	db 68, PERSIAN
 	db -1 ; end
 
 	; GENTLEMAN (3)
@@ -1488,7 +1488,7 @@ TeacherGroup:
 
 	; TEACHER (3)
 	db "SHIRLEY@", TRAINERTYPE_NORMAL
-	db 85, WIGGLYTUFF
+	db 68, WIGGLYTUFF
 	db -1 ; end
 
 SabrinaGroup:
@@ -1666,10 +1666,10 @@ FisherGroup:
 
 	; FISHER (12)
 	db "JONAH@", TRAINERTYPE_NORMAL
-	db 85, GYARADOS
-	db 85, SLOWKING
-	db 85, OCTILLERY
-	db 85, CLOYSTER
+	db 68, GYARADOS
+	db 67, SLOWKING
+	db 68, OCTILLERY
+	db 67, CLOYSTER
 	db -1 ; end
 
 	; FISHER (13)
@@ -2036,21 +2036,21 @@ SailorGroup:
 
 	; SAILOR (6)
 	db "JEFF@", TRAINERTYPE_NORMAL
-	db 85, DEWGONG
-	db 85, MACHAMP
+	db 67, DEWGONG
+	db 68, MACHAMP
 	db -1 ; end
 
 	; SAILOR (7)
 	db "GARRETT@", TRAINERTYPE_NORMAL
-	db 85, KINGLER
+	db 68, KINGLER
 	db -1 ; end
 
 	; SAILOR (8)
 	db "KENNETH@", TRAINERTYPE_NORMAL
-	db 28, POLITOED
-	db 28, HITMONCHAN
-	db 28, HITMONLEE
-	db 28, PRIMEAPE
+	db 67, POLITOED
+	db 68, HITMONCHAN
+	db 68, HITMONLEE
+	db 67, PRIMEAPE
 	db -1 ; end
 
 	; SAILOR (9)
@@ -2319,8 +2319,8 @@ HikerGroup:
 
 	; HIKER (14)
 	db "NOLAND@", TRAINERTYPE_NORMAL
-	db 85, SANDSLASH
-	db 85, GOLEM
+	db 67, SANDSLASH
+	db 68, GOLEM
 	db -1 ; end
 
 	; HIKER (15)
@@ -2453,10 +2453,10 @@ BurglarGroup:
 
 	; BURGLAR (3)
 	db "COREY@", TRAINERTYPE_NORMAL
-	db 85, MUK
-	db 85, MAGCARGO
-	db 85, ARCANINE
-	db 85, WEEZING
+	db 67, MUK
+	db 67, MAGCARGO
+	db 67, ARCANINE
+	db 68, WEEZING
 	db -1 ; end
 
 FirebreatherGroup:
@@ -2524,9 +2524,9 @@ JugglerGroup:
 
 	; JUGGLER (2)
 	db "FRITZ@", TRAINERTYPE_NORMAL
-	db 85, MR__MIME
-	db 85, MAGMAR
-	db 85, MACHAMP
+	db 67, MR__MIME
+	db 67, MAGMAR
+	db 68, MACHAMP
 	db -1 ; end
 
 	; JUGGLER (3)
@@ -2615,9 +2615,9 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (9)
 	db "WAI@", TRAINERTYPE_NORMAL
-	db 85, POLIWRATH
-	db 85, PRIMEAPE
-	db 85, MACHAMP
+	db 67, POLIWRATH
+	db 67, PRIMEAPE
+	db 68, MACHAMP
 	db -1 ; end
 
 ExecutiveMGroup:
@@ -2787,7 +2787,7 @@ PicnickerGroup:
 
 	; PICNICKER (8)
 	db "DEBRA@", TRAINERTYPE_NORMAL
-	db 85, QUAGSIRE
+	db 68, QUAGSIRE
 	db -1 ; end
 
 	; PICNICKER (9)
@@ -3286,14 +3286,14 @@ TwinsGroup:
 
 	; TWINS (7)
 	db "MEG & PEG@", TRAINERTYPE_NORMAL
-	db 85, URSARING
-	db 85, DONPHAN
+	db 67, URSARING
+	db 67, DONPHAN
 	db -1 ; end
 
 	; TWINS (8)
 	db "MEG & PEG@", TRAINERTYPE_NORMAL
-	db 31, PHANPY
-	db 31, TEDDIURSA
+	db 67, URSARING
+	db 67, DONPHAN
 	db -1 ; end
 
 PokefanFGroup:
@@ -3319,12 +3319,12 @@ PokefanFGroup:
 
 	; POKEFANF (5)
 	db "GEORGIA@", TRAINERTYPE_NORMAL
-	db 85, VAPOREON
-	db 85, ALAKAZAM
-	db 85, NINETALES
-	db 85, RHYDON
-	db 85, MAGNETON
-	db 85, MEGANIUM
+	db 66, VAPOREON
+	db 66, ALAKAZAM
+	db 66, NINETALES
+	db 66, RHYDON
+	db 66, MAGNETON
+	db 66, MEGANIUM
 	db -1 ; end
 
 RedGroup:

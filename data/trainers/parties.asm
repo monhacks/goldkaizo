@@ -313,21 +313,21 @@ ChampionGroup:
 BrockGroup:
 	; BROCK (1)
 	db "BROCK@", TRAINERTYPE_NORMAL
-	db 80, STEELIX
-	db 78, NINETALES
-	db 80, CROBAT
-	db 78, SUDOWOODO
-	db 81, FORRETRESS
-	db 80, CHANSEY
+	db 94, STEELIX
+	db 93, NINETALES
+	db 94, CROBAT
+	db 93, SUDOWOODO
+	db 94, FORRETRESS
+	db 93, CHANSEY
 	db -1 ; end
 
 MistyGroup:
 	; MISTY (1)
 	db "MISTY@", TRAINERTYPE_NORMAL
-	db 82, CORSOLA
+	db 81, CORSOLA
 	db 80, GYARADOS
-	db 83, KINGDRA
-	db 85, STARMIE
+	db 82, KINGDRA
+	db 83, STARMIE
 	db 82, POLITOED
 	db 80, TOGETIC
 	db -1 ; end
@@ -335,12 +335,12 @@ MistyGroup:
 LtSurgeGroup:
 	; LT_SURGE (1)
 	db "LT.SURGE@", TRAINERTYPE_NORMAL
-	db 86, RAICHU
-	db 84, ELECTRODE
-	db 87, AMPHAROS
-	db 84, MAGNETON
-	db 82, RAIKOU
-	db 85, ZAPDOS
+	db 74, RAICHU
+	db 72, ELECTRODE
+	db 73, AMPHAROS
+	db 72, MAGNETON
+	db 73, RAIKOU
+	db 74, ZAPDOS
 	db -1 ; end
 
 ScientistGroup:
@@ -379,12 +379,12 @@ ScientistGroup:
 ErikaGroup:
 	; ERIKA (1)
 	db "ERIKA@", TRAINERTYPE_NORMAL
-	db 84, CLEFABLE
-	db 86, TANGELA
-	db 88, VICTREEBEL
-	db 86, BELLOSSOM
-	db 89, VENUSAUR
-	db 85, EXEGGUTOR
+	db 77, CLEFABLE
+	db 76, TANGELA
+	db 77, VICTREEBEL
+	db 76, BELLOSSOM
+	db 77, VENUSAUR
+	db 76, EXEGGUTOR
 	db -1 ; end
 
 YoungsterGroup:
@@ -794,11 +794,11 @@ JanineGroup:
 	; JANINE (1)
 	db "JANINE@", TRAINERTYPE_NORMAL
 	db 86, CROBAT
-	db 90, MUK
+	db 86, MUK
 	db 87, WEEZING
 	db 88, ARIADOS
 	db 87, VENOMOTH
-	db 90, VILEPLUME
+	db 86, VILEPLUME
 	db -1 ; end
 
 CooltrainerMGroup:
@@ -1103,8 +1103,10 @@ BeautyGroup:
 
 	; BEAUTY (6)
 	db "CASSIE@", TRAINERTYPE_NORMAL
-	db 85, VILEPLUME
-	db 85, BUTTERFREE
+	db 66, VILEPLUME
+	db 67, BUTTERFREE
+	db 66, SHUCKLE
+	db 67, DUNSPARCE
 	db -1 ; end
 
 	; BEAUTY (7)
@@ -1494,12 +1496,12 @@ TeacherGroup:
 SabrinaGroup:
 	; SABRINA (1)
 	db "SABRINA@", TRAINERTYPE_NORMAL
-	db 81, HYPNO
-	db 83, JYNX
-	db 83, EXEGGUTOR
-	db 85, ESPEON
-	db 86, ALAKAZAM
-	db 86, MEW
+	db 91, HYPNO
+	db 92, JYNX
+	db 91, EXEGGUTOR
+	db 92, ESPEON
+	db 91, ALAKAZAM
+	db 92, MEW
 	db -1 ; end
 
 BugCatcherGroup:
@@ -1556,8 +1558,8 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (9)
 	db "KEN@", TRAINERTYPE_NORMAL
-	db 85, ARIADOS
-	db 85, PINSIR
+	db 67, ARIADOS
+	db 68, PINSIR
 	db -1 ; end
 
 	; BUG_CATCHER (10)
@@ -2055,9 +2057,9 @@ SailorGroup:
 
 	; SAILOR (9)
 	db "STANLY@", TRAINERTYPE_NORMAL
-	db 85, PRIMEAPE
-	db 85, MACHAMP
-	db 85, GOLDUCK
+	db 67, PRIMEAPE
+	db 66, MACHAMP
+	db 67, GOLDUCK
 	db -1 ; end
 
 	; SAILOR (10)
@@ -2127,9 +2129,9 @@ SuperNerdGroup:
 
 	; SUPER_NERD (9)
 	db "SHAWN@", TRAINERTYPE_NORMAL
-	db 85, ELECTABUZZ
-	db 85, MUK
-	db 85, MAGNETON
+	db 66, ELECTABUZZ
+	db 66, MUK
+	db 66, MAGNETON
 	db -1 ; end
 
 	; SUPER_NERD (10)
@@ -2216,8 +2218,8 @@ Rival2Group:
 GuitaristGroup:
 	; GUITARIST (1)
 	db "CLYDE@", TRAINERTYPE_NORMAL
-	db 85, ELECTABUZZ
-	db 85, JOLTEON
+	db 66, ELECTABUZZ
+	db 67, JOLTEON
 	db -1 ; end
 
 	; GUITARIST (2)
@@ -2425,12 +2427,12 @@ BikerGroup:
 BlaineGroup:
 	; BLAINE (1)
 	db "BLAINE@", TRAINERTYPE_NORMAL
-	db 87, MAGCARGO
-	db 87, MAGMAR
-	db 91, ARCANINE
-	db 90, RAPIDASH
-	db 87, ENTEI
-	db 92, MOLTRES
+	db 97, MAGCARGO
+	db 98, MAGMAR
+	db 97, ARCANINE
+	db 98, RAPIDASH
+	db 97, ENTEI
+	db 98, MOLTRES
 	db -1 ; end
 
 BurglarGroup:
@@ -2508,9 +2510,9 @@ FirebreatherGroup:
 
 	; FIREBREATHER (8)
 	db "LYLE@", TRAINERTYPE_NORMAL
-	db 85, WEEZING
-	db 85, MAGCARGO
-	db 85, TYPHLOSION
+	db 66, WEEZING
+	db 67, MAGCARGO
+	db 66, TYPHLOSION
 	db -1 ; end
 
 JugglerGroup:
@@ -3193,7 +3195,7 @@ PokefanMGroup:
 
 	; POKEFANM (9)
 	db "COLIN@", TRAINERTYPE_NORMAL
-	db 85, DELIBIRD
+	db 68, DELIBIRD
 	db -1 ; end
 
 	; POKEFANM (10)
@@ -3319,12 +3321,12 @@ PokefanFGroup:
 
 	; POKEFANF (5)
 	db "GEORGIA@", TRAINERTYPE_NORMAL
-	db 66, VAPOREON
-	db 66, ALAKAZAM
-	db 66, NINETALES
-	db 66, RHYDON
-	db 66, MAGNETON
-	db 66, MEGANIUM
+	db 65, VAPOREON
+	db 65, ALAKAZAM
+	db 65, NINETALES
+	db 65, RHYDON
+	db 65, MAGNETON
+	db 65, MEGANIUM
 	db -1 ; end
 
 RedGroup:
@@ -3341,12 +3343,12 @@ RedGroup:
 BlueGroup:
 	; BLUE (1)
 	db "BLUE@", TRAINERTYPE_NORMAL
-	db 92, GOLEM
-	db 92, EXEGGUTOR
-	db 95, NINETALES
-	db 95, CLOYSTER
-	db 95, JOLTEON
-	db 92, MEWTWO
+	db 100, GOLEM
+	db 100, EXEGGUTOR
+	db 100, NINETALES
+	db 100, CLOYSTER
+	db 100, JOLTEON
+	db 100, MEWTWO
 	db -1 ; end
 
 OfficerGroup:

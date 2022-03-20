@@ -1451,8 +1451,8 @@ GentlemanGroup:
 
 	; GENTLEMAN (3)
 	db "GREGORY@", TRAINERTYPE_NORMAL
-	db 88, RAICHU
-	db 88, JOLTEON
+	db 68, RAICHU
+	db 69, JOLTEON
 	db -1 ; end
 
 	; GENTLEMAN (4)
@@ -2224,10 +2224,10 @@ GuitaristGroup:
 
 	; GUITARIST (2)
 	db "VINCENT@", TRAINERTYPE_NORMAL
-	db 88, RAICHU
-	db 88, ELECTRODE
-	db 88, PORYGON
-	db 88, MAGNETON
+	db 69, RAICHU
+	db 68, ELECTRODE
+	db 68, PORYGON
+	db 69, MAGNETON
 	db -1 ; end
 
 HikerGroup:
@@ -2533,10 +2533,10 @@ JugglerGroup:
 
 	; JUGGLER (3)
 	db "HORTON@", TRAINERTYPE_NORMAL
-	db 88, ELECTRODE
-	db 88, MAGNETON
-	db 88, AMPHAROS
-	db 88, RAICHU
+	db 69, ELECTRODE
+	db 69, MAGNETON
+	db 69, AMPHAROS
+	db 69, RAICHU
 	db -1 ; end
 
 	; JUGGLER (4)

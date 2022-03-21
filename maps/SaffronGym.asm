@@ -315,7 +315,7 @@ SaffronGym_MapEvents:
 	warp_event  4,  5, SAFFRON_GYM, 6
 	warp_event 11,  3, SAFFRON_GYM, 7
 	warp_event  1, 17, SAFFRON_GYM, 8
-	warp_event 19,  6, SAFFRON_GYM, 9
+	warp_event 19,  5, SAFFRON_GYM, 9
 	warp_event 15, 15, SAFFRON_GYM, 10
 	warp_event  5, 15, SAFFRON_GYM, 11
 	warp_event  4, 11, SAFFRON_GYM, 12

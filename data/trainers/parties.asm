@@ -1153,7 +1153,7 @@ BeautyGroup:
 	db 80, VICTREEBEL
 	db 80, EXEGGUTOR
 	db 80, PARASECT
-	db 80, SKIPLOOM
+	db 80, BELLOSSOM
 	db -1 ; end
 
 	; BEAUTY (15)

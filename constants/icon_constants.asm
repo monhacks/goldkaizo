@@ -260,3 +260,14 @@
 	const MONICON_NAMINGSCREEN
 	const MONICON_MOVES
 	const MONICON_TRADE
+
+; party menu icon palettes
+	const_def
+	const PAL_ICON_RED    ; 0
+	const PAL_ICON_BLUE   ; 1
+	const PAL_ICON_GREEN  ; 2
+	const PAL_ICON_BROWN  ; 3
+	const PAL_ICON_PINK   ; 4
+	const PAL_ICON_GRAY   ; 5
+	const PAL_ICON_TEAL   ; 6
+	const PAL_ICON_PURPLE ; 7

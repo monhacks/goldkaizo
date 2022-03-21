@@ -267,3 +267,5 @@ NUM_SPRITE_ANIM_STRUCTS EQU 10 ; see wSpriteAnimationStructs
 	const SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_LUGIA_4     ; 59
 	const SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_LUGIA_5     ; 5a
 	const SPRITE_ANIM_OAMSET_HEADBUTT_TREE_2            ; 5b
+	const SPRITE_ANIM_OAMSET_PARTY_MON_1                ; 5c
+	const SPRITE_ANIM_OAMSET_PARTY_MON_2                ; 5d

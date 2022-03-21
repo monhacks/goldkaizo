@@ -101,6 +101,8 @@ ELIF DEF(_SILVER)
 	dbw $00, .OAMData_GSIntroLugia1            ; SPRITE_ANIM_OAMSET_GS_INTRO_HO_OH_5
 ENDC
 	dbw $04, .OAMData_Tree                     ; SPRITE_ANIM_OAMSET_HEADBUTT_TREE_2
+	dbw $00, .OAMData_PartyMon                 ; SPRITE_ANIM_OAMSET_PARTY_MON_1
+	dbw $04, .OAMData_PartyMon                 ; SPRITE_ANIM_OAMSET_PARTY_MON_2
 
 .OAMData_1x1_Palette0:
 	db 1
@@ -320,31 +322,31 @@ ENDC
 
 .OAMData_PartyMonWithMail1:
 	db 4
-	dbsprite -1, -1,  0,  0, $00, PAL_OW_RED
-	dbsprite  0, -1,  0,  0, $01, PAL_OW_RED
-	dbsprite -1,  0,  0,  0, $08, PAL_OW_RED
-	dbsprite  0,  0,  0,  0, $03, PAL_OW_RED
+	dbsprite -1, -1,  0,  0, $00, -1
+	dbsprite  0, -1,  0,  0, $01, -1
+	dbsprite -1,  0,  0,  0, $08, PAL_ICON_RED
+	dbsprite  0,  0,  0,  0, $03, -1
 
 .OAMData_PartyMonWithMail2:
 	db 4
-	dbsprite -1, -1,  0,  0, $04, PAL_OW_RED
-	dbsprite  0, -1,  0,  0, $05, PAL_OW_RED
-	dbsprite -1,  0,  0,  0, $08, PAL_OW_RED
-	dbsprite  0,  0,  0,  0, $07, PAL_OW_RED
+	dbsprite -1, -1,  0,  0, $04, -1
+	dbsprite  0, -1,  0,  0, $05, -1
+	dbsprite -1,  0,  0,  0, $08, PAL_ICON_RED
+	dbsprite  0,  0,  0,  0, $07, -1
 
 .OAMData_PartyMonWithItem1:
 	db 4
-	dbsprite -1, -1,  0,  0, $00, PAL_OW_RED
-	dbsprite  0, -1,  0,  0, $01, PAL_OW_RED
-	dbsprite -1,  0,  0,  0, $09, PAL_OW_RED
-	dbsprite  0,  0,  0,  0, $03, PAL_OW_RED
+	dbsprite -1, -1,  0,  0, $00, -1
+	dbsprite  0, -1,  0,  0, $01, -1
+	dbsprite -1,  0,  0,  0, $09, PAL_ICON_RED
+	dbsprite  0,  0,  0,  0, $03, -1
 
 .OAMData_PartyMonWithItem2:
 	db 4
-	dbsprite -1, -1,  0,  0, $04, PAL_OW_RED
-	dbsprite  0, -1,  0,  0, $05, PAL_OW_RED
-	dbsprite -1,  0,  0,  0, $09, PAL_OW_RED
-	dbsprite  0,  0,  0,  0, $07, PAL_OW_RED
+	dbsprite -1, -1,  0,  0, $04, -1
+	dbsprite  0, -1,  0,  0, $05, -1
+	dbsprite -1,  0,  0,  0, $09, PAL_ICON_RED
+	dbsprite  0,  0,  0,  0, $07, -1
 
 .OAMData_GSIntroMagikarp:
 	db 6
@@ -354,6 +356,13 @@ ENDC
 	dbsprite -2,  0,  4,  0, $10, 1
 	dbsprite -1,  0,  4,  0, $11, 1
 	dbsprite  0,  0,  4,  0, $12, 1
+	
+.OAMData_PartyMon:
+	db 4
+	dbsprite -1, -1,  0,  0, $00, -1
+	dbsprite  0, -1,  0,  0, $01, -1
+	dbsprite -1,  0,  0,  0, $02, -1
+	dbsprite  0,  0,  0,  0, $03, -1
 
 .OAMData_UnusedLapras:
 	db 10

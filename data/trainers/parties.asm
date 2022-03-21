@@ -426,12 +426,12 @@ YoungsterGroup:
 
 	; YOUNGSTER (7)
 	db "JOEY@", TRAINERTYPE_NORMAL
-	db 20, RATICATE
+	db 8, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (8)
 	db "JOEY@", TRAINERTYPE_NORMAL
-	db 26, RATICATE
+	db 11, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (9)

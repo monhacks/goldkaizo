@@ -57,12 +57,12 @@ MartViolet:
 	db 10 ; # items
 	db POKE_BALL
 	db SUPER_POTION
-	db ESCAPE_ROPE
+	db X_ACCURACY
 	db FULL_HEAL
 	db SUPER_REPEL
 	db REVIVE
 	db GUARD_SPEC
-	db X_ACCURACY
+	db X_SPEED
 	db PP_UP
 	db MOON_STONE
 	db -1 ; end

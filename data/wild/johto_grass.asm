@@ -1560,12 +1560,12 @@ JohtoGrassWildMons:
 	db 3, WEEDLE
 	db 3, PICHU
 	db 2, IGGLYBUFF
-	db 4, CATERPIE
+	db 4, EEVEE
 	db 4, KAKUNA
 	db 4, METAPOD
 	; day
 	db 2, WEEDLE
-	db 3, CATERPIE
+	db 3, EEVEE
 	db 3, SUNKERN
 	db 2, KAKUNA
 	db 4, IGGLYBUFF
@@ -1574,7 +1574,7 @@ JohtoGrassWildMons:
 	; nite
 	db 2, WEEDLE
 	db 3, CLEFFA
-	db 3, KAKUNA
+	db 3, EEVEE
 	db 2, RATTATA
 	db 4, PICHU
 	db 4, CATERPIE
@@ -1904,9 +1904,9 @@ JohtoGrassWildMons:
 	db 8, SPEAROW
 	db 8, BELLSPROUT
 	db 9, PIDGEY
-	db 8, PARAS
+	db 8, GROWLITHE
 	db 9, PIDGEY
-	db 8, PARAS
+	db 8, GROWLITHE
 	; nite
 	db 7, HOOTHOOT
 	db 8, ODDISH

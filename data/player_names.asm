@@ -11,15 +11,15 @@ NameMenuHeader:
 
 PlayerNameArray:
 IF DEF(_GOLD)
-	db "GOLD@"
-	db "HIRO@"
-	db "TAYLOR@"
-	db "KARL@"
+	db "NATE@"
+	db "JOHN@"
+	db "RIDLEY@"
+	db "DRAKE@"
 ELIF DEF(_SILVER)
-	db "SILVER@"
-	db "KAMON@"
-	db "OSCAR@"
-	db "MAX@"
+	db "NATE@"
+	db "JOHN@"
+	db "RIDLEY@"
+	db "DRAKE@"
 ENDC
 	db 2
 	db "NAME@" ; title

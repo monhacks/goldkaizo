@@ -499,7 +499,7 @@ VulpixEvosAttacks:
 	db 16, SWIFT
 	db 17, CONFUSE_RAY
 	db 21, FLAMETHROWER
-	db 25, BITE
+	db 25, DIG
 	db 0 ; no more level-up moves
 
 NinetalesEvosAttacks:
@@ -778,8 +778,8 @@ GrowlitheEvosAttacks:
 	db 9, TAKE_DOWN
 	db 15, FLAME_WHEEL
 	db 20, COVET
-	db 24, FLAMETHROWER
-	db 28, FLAMETHROWER
+	db 23, FLAMETHROWER
+	db 25, DIG
 	db 0 ; no more level-up moves
 
 ArcanineEvosAttacks:
@@ -2922,9 +2922,9 @@ SlugmaEvosAttacks:
 	db 6, SUNNY_DAY
 	db 10, ROLLOUT
 	db 14, SWAGGER
-	db 18, HIDDEN_POWER
-	db 22, FLAMETHROWER
+	db 22, FLAME_WHEEL
 	db 26, ROCK_SLIDE
+	db 32, FLAMETHROWER
 	db 0 ; no more level-up moves
 
 MagcargoEvosAttacks:

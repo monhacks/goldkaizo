@@ -2475,14 +2475,14 @@ FirebreatherGroup:
 
 	; FIREBREATHER (2)
 	db "DICK@", TRAINERTYPE_NORMAL
-	db 38, CHARIZARD
+	db 32, CHARIZARD
 	db -1 ; end
 
 	; FIREBREATHER (3)
 	db "NED@", TRAINERTYPE_NORMAL
-	db 36, MUK
-	db 36, ARCANINE
-	db 36, WEEZING
+	db 31, MUK
+	db 31, ARCANINE
+	db 31, WEEZING
 	db -1 ; end
 
 	; FIREBREATHER (4)

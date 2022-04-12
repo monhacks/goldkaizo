@@ -1336,55 +1336,55 @@ JohtoGrassWildMons:
 
 	IF DEF(_GOLD)
 	; morn
-	db 83, ELECTRODE
-	db 83, TYRANITAR
-	db 82, ALAKAZAM
-	db 84, MACHAMP
-	db 83, DRAGONITE
+	db 83, ALAKAZAM
+	db 83, MACHAMP
+	db 82, ELECTRODE
+	db 84, GENGAR
+	db 83, PORYGON2
 	db 85, CLOYSTER
-	db 85, SNORLAX
+	db 85, LAPRAS
 	; day
-	db 83, ELECTRODE
-	db 83, TYRANITAR
-	db 82, ALAKAZAM
-	db 84, MACHAMP
-	db 83, LAPRAS
-	db 85, DRAGONITE
-	db 85, SNORLAX
-	; nite
-	db 83, ELECTRODE
-	db 83, TYRANITAR
-	db 82, ALAKAZAM
-	db 84, MACHAMP
+	db 83, ALAKAZAM
 	db 83, GENGAR
+	db 82, ELECTRODE
+	db 84, MACHAMP
+	db 83, PORYGON2
 	db 85, CLOYSTER
-	db 85, SNORLAX
+	db 85, HYPNO
+	; nite
+	db 83, ALAKAZAM
+	db 83, GENGAR
+	db 82, ELECTRODE
+	db 84, MACHAMP
+	db 83, AERODACTYL
+	db 85, LAPRAS
+	db 85, TYRANITAR
 
 	ELIF DEF(_SILVER)
 	; morn
-	db 83, ELECTRODE
-	db 83, TYRANITAR
-	db 82, ALAKAZAM
-	db 84, MACHAMP
-	db 83, DRAGONITE
+	db 83, ALAKAZAM
+	db 83, MACHAMP
+	db 82, ELECTRODE
+	db 84, GENGAR
+	db 83, PORYGON2
 	db 85, CLOYSTER
-	db 85, SNORLAX
+	db 85, LAPRAS
 	; day
-	db 83, ELECTRODE
-	db 83, TYRANITAR
-	db 82, ALAKAZAM
-	db 84, MACHAMP
-	db 83, LAPRAS
-	db 85, DRAGONITE
-	db 85, SNORLAX
-	; nite
-	db 83, ELECTRODE
-	db 83, TYRANITAR
-	db 82, ALAKAZAM
-	db 84, MACHAMP
+	db 83, ALAKAZAM
 	db 83, GENGAR
+	db 82, ELECTRODE
+	db 84, MACHAMP
+	db 83, PORYGON2
 	db 85, CLOYSTER
-	db 85, SNORLAX
+	db 85, HYPNO
+	; nite
+	db 83, ALAKAZAM
+	db 83, GENGAR
+	db 82, ELECTRODE
+	db 84, MACHAMP
+	db 83, AERODACTYL
+	db 85, LAPRAS
+	db 85, TYRANITAR
 	ENDC
 
 	map_id SILVER_CAVE_ROOM_3
@@ -1711,7 +1711,7 @@ JohtoGrassWildMons:
 	db 13, JIGGLYPUFF
 	db 14, SPEAROW
 	db 14, MANKEY
-	db 14, RATTATA
+	db 14, PONYTA
 	; nite
 	db 12, MAREEP
 	db 12, WOOPER
@@ -1753,13 +1753,13 @@ JohtoGrassWildMons:
 
 	IF DEF(_GOLD)
 	; morn
-	db 17, HOPPIP
-	db 17, RATTATA
+	db 17, MARILL
 	db 17, SPEAROW
-	db 17, RATTATA
-	db 17, HOPPIP
-	db 17, ZUBAT
-	db 17, ZUBAT
+	db 17, SANDSHREW
+	db 17, ODDISH
+	db 17, EKANS
+	db 17, PIKACHU
+	db 17, VULPIX
 	; day
 	db 17, MARILL
 	db 17, MAREEP
@@ -1779,13 +1779,13 @@ JohtoGrassWildMons:
 
 	ELIF DEF(_SILVER)
 	; morn
-	db 17, HOPPIP
-	db 17, RATTATA
+	db 17, MARILL
 	db 17, SPEAROW
-	db 17, RATTATA
-	db 17, HOPPIP
-	db 17, ZUBAT
-	db 17, ZUBAT
+	db 17, SANDSHREW
+	db 17, ODDISH
+	db 17, EKANS
+	db 17, PIKACHU
+	db 17, VULPIX
 	; day
 	db 17, MARILL
 	db 17, MAREEP
@@ -1892,55 +1892,55 @@ JohtoGrassWildMons:
 
 	IF DEF(_GOLD)
 	; morn
-	db 7, PIDGEY
-	db 8, SPEAROW
-	db 8, BELLSPROUT
-	db 9, PIDGEY
-	db 8, GROWLITHE
-	db 9, PIDGEY
-	db 8, GROWLITHE
-	; day
-	db 7, PIDGEY
-	db 8, SPEAROW
-	db 8, BELLSPROUT
-	db 9, PIDGEY
-	db 8, GROWLITHE
-	db 9, PIDGEY
-	db 8, GROWLITHE
-	; nite
-	db 7, HOOTHOOT
+	db 7, MAREEP
+	db 8, PONYTA
+	db 8, SNUBBULL
+	db 9, NIDORAN_F
+	db 8, NIDORAN_M
+	db 9, SPEAROW
 	db 8, ODDISH
-	db 8, VENONAT
-	db 9, HOOTHOOT
-	db 8, HOUNDOUR
-	db 9, HOOTHOOT
-	db 8, HOUNDOUR
+	; day
+	db 7, GROWLITHE
+	db 8, MAREEP
+	db 8, VULPIX
+	db 9, PONYTA
+	db 8, PSYDUCK
+	db 9, POLIWAG
+	db 8, ODDISH
+	; nite
+	db 7, VULPIX
+	db 8, MAREEP
+	db 8, GROWLITHE
+	db 9, HOUNDOUR
+	db 8, WOOPER
+	db 9, NIDORAN_F
+	db 8, NIDORAN_M
 
 	ELIF DEF(_SILVER)
 	; morn
-	db 7, PIDGEY
-	db 8, SPEAROW
-	db 8, BELLSPROUT
-	db 9, PIDGEY
-	db 8, GROWLITHE
-	db 9, PIDGEY
-	db 8, GROWLITHE
-	; day
-	db 7, PIDGEY
-	db 8, SPEAROW
-	db 8, BELLSPROUT
-	db 9, PIDGEY
-	db 8, GROWLITHE
-	db 9, PIDGEY
-	db 8, GROWLITHE
-	; nite
-	db 7, HOOTHOOT
+	db 7, MAREEP
+	db 8, PONYTA
+	db 8, SNUBBULL
+	db 9, NIDORAN_F
+	db 8, NIDORAN_M
+	db 9, SPEAROW
 	db 8, ODDISH
-	db 8, VENONAT
-	db 9, HOOTHOOT
-	db 8, HOUNDOUR
-	db 9, HOOTHOOT
-	db 8, HOUNDOUR
+	; day
+	db 7, GROWLITHE
+	db 8, MAREEP
+	db 8, VULPIX
+	db 9, PONYTA
+	db 8, PSYDUCK
+	db 9, POLIWAG
+	db 8, ODDISH
+	; nite
+	db 7, VULPIX
+	db 8, MAREEP
+	db 8, GROWLITHE
+	db 9, HOUNDOUR
+	db 8, WOOPER
+	db 9, NIDORAN_F
+	db 8, NIDORAN_M
 	ENDC
 
 	map_id ROUTE_37
@@ -1948,55 +1948,55 @@ JohtoGrassWildMons:
 
 	IF DEF(_GOLD)
 	; morn
-	db 29, EKANS
-	db 30, SPEAROW
-	db 30, PIDGEOTTO
-	db 29, SENTRET
-	db 31, FURRET
-	db 31, STANTLER
-	db 30, CHANSEY
-	; day
-	db 29, EKANS
-	db 30, SPEAROW
-	db 30, PIDGEOTTO
-	db 29, SENTRET
-	db 31, FURRET
-	db 31, STANTLER
-	db 30, CHANSEY
-	; nite
-	db 29, RATTATA
-	db 30, HOOTHOOT
-	db 30, MURKROW
+	db 29, LEDIAN
+	db 30, PIKACHU
+	db 30, PONYTA
 	db 29, RATICATE
-	db 31, RATTATA
-	db 31, STANTLER
-	db 30, CHANSEY
+	db 31, PIDGEOTTO
+	db 31, BEEDRILL
+	db 30, FEAROW
+	; day
+	db 29, BUTTERFREE
+	db 30, FLAAFFY
+	db 30, RATICATE
+	db 29, PONYTA
+	db 31, BEEDRILL
+	db 31, GLOOM
+	db 30, FEAROW
+	; nite
+	db 29, RATICATE
+	db 30, ARIADOS
+	db 30, AZUMARILL
+	db 29, PIKACHU
+	db 31, GOLBAT
+	db 31, PONYTA
+	db 30, NOCTOWL
 
 	ELIF DEF(_SILVER)
 	; morn
-	db 29, EKANS
-	db 30, SPEAROW
-	db 30, PIDGEOTTO
-	db 29, SENTRET
-	db 31, FURRET
-	db 31, STANTLER
-	db 30, CHANSEY
-	; day
-	db 29, EKANS
-	db 30, SPEAROW
-	db 30, PIDGEOTTO
-	db 29, SENTRET
-	db 31, FURRET
-	db 31, STANTLER
-	db 30, CHANSEY
-	; nite
-	db 29, RATTATA
-	db 30, HOOTHOOT
-	db 30, MURKROW
+	db 29, LEDIAN
+	db 30, PIKACHU
+	db 30, PONYTA
 	db 29, RATICATE
-	db 31, RATTATA
-	db 31, STANTLER
-	db 30, CHANSEY
+	db 31, PIDGEOTTO
+	db 31, BEEDRILL
+	db 30, FEAROW
+	; day
+	db 29, BUTTERFREE
+	db 30, FLAAFFY
+	db 30, RATICATE
+	db 29, PONYTA
+	db 31, BEEDRILL
+	db 31, GLOOM
+	db 30, FEAROW
+	; nite
+	db 29, RATICATE
+	db 30, ARIADOS
+	db 30, AZUMARILL
+	db 29, PIKACHU
+	db 31, GOLBAT
+	db 31, PONYTA
+	db 30, NOCTOWL
 	ENDC
 
 	map_id ROUTE_38
@@ -2004,111 +2004,111 @@ JohtoGrassWildMons:
 
 	IF DEF(_GOLD)
 	; morn
-	db 30, DODUO
-	db 30, EKANS
-	db 30, MANKEY
-	db 32, DODUO
-	db 32, MANKEY
-	db 32, MILTANK
-	db 32, KANGASKHAN
+	db 30, POLIWHIRL
+	db 30, FURRET
+	db 30, RAPIDASH
+	db 32, SUNFLORA
+	db 32, STANTLER
+	db 32, MAGNEMITE
+	db 32, SUDOWOODO
 	; day
-	db 30, DODUO
-	db 30, EKANS
-	db 30, MANKEY
-	db 32, DODUO
-	db 32, MANKEY
-	db 32, TAUROS
-	db 32, KANGASKHAN
+	db 30, STANTLER
+	db 30, FEAROW
+	db 30, MAGNEMITE
+	db 32, SUNFLORA
+	db 32, FURRET
+	db 32, SANDSLASH
+	db 32, SUDOWOODO
 	; nite
-	db 30, MEOWTH
-	db 30, DODUO
-	db 30, MEOWTH
-	db 32, EKANS
-	db 32, DODUO
-	db 32, TAUROS
-	db 32, KANGASKHAN
+	db 30, STANTLER
+	db 30, NOCTOWL
+	db 30, MAGNEMITE
+	db 32, MURKROW
+	db 32, SANDSLASH
+	db 32, SNEASEL
+	db 32, SUDOWOODO
 
 	ELIF DEF(_SILVER)
 	; morn
-	db 30, DODUO
-	db 30, EKANS
-	db 30, MANKEY
-	db 32, DODUO
-	db 32, MANKEY
-	db 32, MILTANK
-	db 32, KANGASKHAN
+	db 30, POLIWHIRL
+	db 30, FURRET
+	db 30, RAPIDASH
+	db 32, SUNFLORA
+	db 32, STANTLER
+	db 32, MAGNEMITE
+	db 32, SUDOWOODO
 	; day
-	db 30, DODUO
-	db 30, EKANS
-	db 30, MANKEY
-	db 32, DODUO
-	db 32, MANKEY
-	db 32, TAUROS
-	db 32, KANGASKHAN
+	db 30, STANTLER
+	db 30, FEAROW
+	db 30, MAGNEMITE
+	db 32, SUNFLORA
+	db 32, FURRET
+	db 32, SANDSLASH
+	db 32, SUDOWOODO
 	; nite
-	db 30, MEOWTH
-	db 30, DODUO
-	db 30, MEOWTH
-	db 32, EKANS
-	db 32, DODUO
-	db 32, TAUROS
-	db 32, KANGASKHAN
+	db 30, STANTLER
+	db 30, NOCTOWL
+	db 30, MAGNEMITE
+	db 32, MURKROW
+	db 32, SANDSLASH
+	db 32, SNEASEL
+	db 32, SUDOWOODO
 	ENDC
 
 	map_id ROUTE_39
 	IF DEF(_GOLD)
 	db 2 percent, 2 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 32, MANKEY
-	db 31, EKANS
-	db 30, SENTRET
-	db 33, FURRET
-	db 32, EKANS
+	db 32, RAPIDASH
+	db 31, SUNFLORA
+	db 30, FLAAFFY
+	db 33, AZUMARILL
+	db 32, FURRET
 	db 33, STANTLER
-	db 33, TEDDIURSA
+	db 33, PIDGEOT
 	; day
-	db 32, MANKEY
-	db 31, EKANS
-	db 30, SENTRET
-	db 33, FURRET
-	db 32, EKANS
-	db 33, STANTLER
-	db 33, TEDDIURSA
+	db 32, FLAAFFY
+	db 31, RAPIDASH
+	db 30, TANGELA
+	db 33, AZUMARILL
+	db 32, TOGETIC
+	db 33, SUNFLORA
+	db 33, GIRAFARIG
 	; nite
-	db 32, MEOWTH
-	db 31, RATTATA
-	db 30, MURKROW
-	db 33, RATICATE
-	db 32, MURKROW
+	db 32, TANGELA
+	db 31, LICKITUNG
+	db 30, FLAAFFY
+	db 33, MURKROW
+	db 32, RAPIDASH
 	db 33, STANTLER
-	db 33, TEDDIURSA
+	db 33, MEOWTH
 
 	ELIF DEF(_SILVER)
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 32, MANKEY
-	db 31, EKANS
-	db 30, SENTRET
-	db 33, FURRET
-	db 32, EKANS
+	db 32, RAPIDASH
+	db 31, SUNFLORA
+	db 30, FLAAFFY
+	db 33, AZUMARILL
+	db 32, FURRET
 	db 33, STANTLER
-	db 33, TEDDIURSA
+	db 33, PIDGEOT
 	; day
-	db 32, MANKEY
-	db 31, EKANS
-	db 30, SENTRET
-	db 33, FURRET
-	db 32, EKANS
-	db 33, STANTLER
-	db 33, TEDDIURSA
+	db 32, FLAAFFY
+	db 31, RAPIDASH
+	db 30, TANGELA
+	db 33, AZUMARILL
+	db 32, TOGETIC
+	db 33, SUNFLORA
+	db 33, GIRAFARIG
 	; nite
-	db 32, MEOWTH
-	db 31, RATTATA
-	db 30, MURKROW
-	db 33, RATICATE
-	db 32, MURKROW
+	db 32, TANGELA
+	db 31, LICKITUNG
+	db 30, FLAAFFY
+	db 33, MURKROW
+	db 32, RAPIDASH
 	db 33, STANTLER
-	db 33, TEDDIURSA
+	db 33, MEOWTH
 	ENDC
 
 	map_id ROUTE_42
@@ -2116,248 +2116,248 @@ JohtoGrassWildMons:
 
 	IF DEF(_GOLD)
 	; morn
-	db 33, SANDSHREW
-	db 34, RHYHORN
-	db 34, FEAROW
-	db 35, SANDSLASH
-	db 33, PHANPY
-	db 34, SMEARGLE
-	db 35, DONPHAN
+	db 33, SUNFLORA
+	db 34, PARASECT
+	db 34, TANGELA
+	db 35, JUMPLUFF
+	db 33, IVYSAUR
+	db 34, BAYLEEF
+	db 35, BAYLEEF
 	; day
-	db 33, SANDSHREW
-	db 34, RHYHORN
-	db 34, FEAROW
-	db 35, SANDSLASH
-	db 33, PHANPY
-	db 34, SMEARGLE
-	db 35, DONPHAN
+	db 33, JUMPLUFF
+	db 34, SUNFLORA
+	db 34, TANGELA
+	db 35, DODUO
+	db 33, BAYLEEF
+	db 34, IVYSAUR
+	db 35, IVYSAUR
 	; nite
-	db 33, HOOTHOOT
-	db 34, RHYHORN
-	db 34, ZUBAT
-	db 35, NOCTOWL
-	db 33, PHANPY
-	db 34, SMEARGLE
-	db 35, DONPHAN
+	db 33, PARASECT
+	db 34, JUMPLUFF
+	db 34, ARIADOS
+	db 35, VENOMOTH
+	db 33, BAYLEEF
+	db 34, IVYSAUR
+	db 35, IVYSAUR
 
 	ELIF DEF(_SILVER)
 	; morn
-	db 33, SANDSHREW
-	db 34, RHYHORN
-	db 34, FEAROW
-	db 35, SANDSLASH
-	db 33, PHANPY
-	db 34, SMEARGLE
-	db 35, DONPHAN
+	db 33, SUNFLORA
+	db 34, PARASECT
+	db 34, TANGELA
+	db 35, JUMPLUFF
+	db 33, IVYSAUR
+	db 34, BAYLEEF
+	db 35, BAYLEEF
 	; day
-	db 33, SANDSHREW
-	db 34, RHYHORN
-	db 34, FEAROW
-	db 35, SANDSLASH
-	db 33, PHANPY
-	db 34, SMEARGLE
-	db 35, DONPHAN
+	db 33, JUMPLUFF
+	db 34, SUNFLORA
+	db 34, TANGELA
+	db 35, DODUO
+	db 33, BAYLEEF
+	db 34, IVYSAUR
+	db 35, IVYSAUR
 	; nite
-	db 33, HOOTHOOT
-	db 34, RHYHORN
-	db 34, ZUBAT
-	db 35, NOCTOWL
-	db 33, PHANPY
-	db 34, SMEARGLE
-	db 35, DONPHAN
+	db 33, PARASECT
+	db 34, JUMPLUFF
+	db 34, ARIADOS
+	db 35, VENOMOTH
+	db 33, BAYLEEF
+	db 34, IVYSAUR
+	db 35, IVYSAUR
 	ENDC
 
 	map_id ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 35, PIDGEOTTO
-	db 34, FURRET
-	db 36, LEDIAN
-	db 35, FARFETCH_D
-	db 36, GIRAFARIG
-	db 37, FARFETCH_D
-	db 37, FARFETCH_D
+	db 35, RAPIDASH
+	db 34, NINETALES
+	db 36, GROWLITHE
+	db 35, MAGBY
+	db 36, CHARMELEON
+	db 37, QUILAVA
+	db 37, QUILAVA
 	; day
-	db 35, PIDGEOTTO
-	db 34, FURRET
-	db 36, PARASECT
-	db 35, FARFETCH_D
-	db 36, GIRAFARIG
-	db 37, FARFETCH_D
-	db 37, FARFETCH_D
+	db 35, RAPIDASH
+	db 34, NINETALES
+	db 36, MAGBY
+	db 35, GROWLITHE
+	db 36, QUILAVA
+	db 37, CHARMELEON
+	db 37, CHARMELEON
 	; nite
-	db 35, NOCTOWL
-	db 34, MURKROW
-	db 36, ARIADOS
-	db 35, VENOMOTH
-	db 36, VENOMOTH
-	db 37, VENOMOTH
-	db 37, VENOMOTH
+	db 35, RAPIDASH
+	db 34, HOUNDOOM
+	db 36, SANDSLASH
+	db 35, GROWLITHE
+	db 36, QUILAVA
+	db 37, CHARMELEON
+	db 37, NINETALES
 
 	map_id ROUTE_44
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 54, TANGELA
-	db 55, ARBOK
-	db 54, WEEPINBELL
-	db 56, LICKITUNG
-	db 55, AZUMARILL
-	db 55, BULBASAUR
-	db 55, AZUMARILL
+	db 54, NIDORINA
+	db 55, RAPIDASH
+	db 54, JUMPLUFF
+	db 56, SANDSLASH
+	db 55, GIRAFARIG
+	db 55, STANTLER
+	db 55, RAICHU
 	; day
-	db 54, TANGELA
-	db 55, ARBOK
+	db 54, NIDORINO
+	db 55, NINETALES
 	db 54, WEEPINBELL
-	db 56, LICKITUNG
-	db 55, AZUMARILL
-	db 55, BULBASAUR
-	db 55, AZUMARILL
+	db 56, SUDOWOODO
+	db 55, WIGGLYTUFF
+	db 55, PIDGEOT
+	db 55, AMPHAROS
 	; nite
-	db 54, TANGELA
-	db 55, ARBOK
-	db 54, WEEPINBELL
-	db 56, LICKITUNG
-	db 55, AZUMARILL
-	db 55, BULBASAUR
-	db 55, AZUMARILL
+	db 54, HITMONCHAN
+	db 55, GROWLITHE
+	db 54, GLOOM
+	db 56, MR__MIME
+	db 55, HITMONLEE
+	db 55, ELECTABUZZ
+	db 55, MAGMAR
 
 	map_id ROUTE_45
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
 	IF DEF(_GOLD)
 	; morn
-	db 58, SANDSLASH
-	db 56, GRAVELER
-	db 58, DONPHAN
-	db 59, GOLEM
-	db 58, GLIGAR
-	db 55, CHARMANDER
-	db 60, SKARMORY
+	db 58, RAPIDASH
+	db 56, DODRIO
+	db 58, NIDORINO
+	db 59, PINSIR
+	db 58, RAICHU
+	db 55, EXEGGCUTE
+	db 60, RHYDON
 	; day
-	db 58, SANDSLASH
-	db 56, GRAVELER
-	db 58, DONPHAN
-	db 59, GOLEM
-	db 58, GLIGAR
-	db 55, CHARMANDER
-	db 60, SKARMORY
+	db 58, ARBOK
+	db 56, SANDSLASH
+	db 58, ELECTABUZZ
+	db 59, VENOMOTH
+	db 58, PIDGEOT
+	db 55, GROWLITHE
+	db 60, GOLEM
 	; nite
-	db 58, SANDSLASH
-	db 56, GRAVELER
-	db 58, DONPHAN
-	db 59, GOLEM
-	db 58, GLIGAR
-	db 55, CHARMANDER
-	db 60, SKARMORY
+	db 58, STANTLER
+	db 56, GLOOM
+	db 58, AMPHAROS
+	db 59, NIDORINA
+	db 58, MAGMAR
+	db 55, CLEFAIRY
+	db 60, GLIGAR
 
 	ELIF DEF(_SILVER)
 	; morn
-	db 58, SANDSLASH
-	db 56, GRAVELER
-	db 58, DONPHAN
-	db 59, GOLEM
-	db 58, GLIGAR
-	db 55, CHARMANDER
-	db 60, SKARMORY
+	db 58, RAPIDASH
+	db 56, DODRIO
+	db 58, NIDORINO
+	db 59, PINSIR
+	db 58, RAICHU
+	db 55, EXEGGCUTE
+	db 60, RHYDON
 	; day
-	db 58, SANDSLASH
-	db 56, GRAVELER
-	db 58, DONPHAN
-	db 59, GOLEM
-	db 58, GLIGAR
-	db 55, CHARMANDER
-	db 60, SKARMORY
+	db 58, ARBOK
+	db 56, SANDSLASH
+	db 58, ELECTABUZZ
+	db 59, VENOMOTH
+	db 58, PIDGEOT
+	db 55, GROWLITHE
+	db 60, GOLEM
 	; nite
-	db 58, SANDSLASH
-	db 56, GRAVELER
-	db 58, DONPHAN
-	db 59, GOLEM
-	db 58, GLIGAR
-	db 55, CHARMANDER
-	db 60, SKARMORY
+	db 58, STANTLER
+	db 56, GLOOM
+	db 58, AMPHAROS
+	db 59, NIDORINA
+	db 58, MAGMAR
+	db 55, CLEFAIRY
+	db 60, GLIGAR
 	ENDC
 
 	map_id ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 58, SANDSLASH
-	db 56, GRAVELER
-	db 58, DONPHAN
-	db 59, GOLEM
-	db 58, GLIGAR
-	db 55, CHARMANDER
-	db 60, SKARMORY
+	db 58, NIDOQUEEN
+	db 56, BLASTOISE
+	db 58, CHARIZARD
+	db 59, VENUSAUR
+	db 58, NIDOKING
+	db 55, BLASTOISE
+	db 60, CHARIZARD
 	; day
-	db 58, SANDSLASH
-	db 56, GRAVELER
-	db 58, DONPHAN
-	db 59, GOLEM
-	db 58, GLIGAR
-	db 55, CHARMANDER
-	db 60, SKARMORY
+	db 58, NIDOQUEEN
+	db 56, MEGANIUM
+	db 58, FERALIGATR
+	db 59, TYPHLOSION
+	db 58, NIDOKING
+	db 55, FERALIGATR
+	db 60, TYPHLOSION
 	; nite
-	db 58, SANDSLASH
-	db 56, GRAVELER
-	db 58, DONPHAN
-	db 59, GOLEM
-	db 58, GLIGAR
-	db 55, CHARMANDER
-	db 60, SKARMORY
+	db 58, MEGANIUM
+	db 56, FERALIGATR
+	db 58, BLASTOISE
+	db 59, CHARIZARD
+	db 58, TYPHLOSION
+	db 55, AMPHAROS
+	db 60, FLAREON
 
 	map_id SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 
 	IF DEF(_GOLD)
 	; morn
-	db 82, RAPIDASH
-	db 82, DODRIO
-	db 83, DONPHAN
-	db 83, URSARING
-	db 83, URSARING
-	db 85, MEGANIUM
-	db 85, MEGANIUM
+	db 82, HERACROSS
+	db 82, MILTANK
+	db 83, JOLTEON
+	db 83, VAPOREON
+	db 83, EXEGGUTOR
+	db 85, FORRETRESS
+	db 85, BLISSEY
 	; day
-	db 82, RAPIDASH
-	db 82, DODRIO
-	db 83, DONPHAN
-	db 83, URSARING
-	db 83, URSARING
-	db 85, TYPHLOSION
-	db 85, TYPHLOSION
+	db 82, TAUROS
+	db 82, JOLTEON
+	db 83, EXEGGUTOR
+	db 83, VAPOREON
+	db 83, NIDOKING
+	db 85, FORRETRESS
+	db 85, CHANSEY
 	; nite
-	db 82, RAPIDASH
-	db 82, DODRIO
-	db 83, URSARING
-	db 83, DONPHAN
-	db 83, DONPHAN
-	db 85, FERALIGATR
-	db 85, FERALIGATR
+	db 82, CROBAT
+	db 82, UMBREON
+	db 83, TAUROS
+	db 83, JOLTEON
+	db 83, FORRETRESS
+	db 85, MILTANK
+	db 85, SKARMORY
 
 	ELIF DEF(_SILVER)
 	; morn
-	db 82, RAPIDASH
-	db 82, DODRIO
-	db 83, DONPHAN
-	db 83, URSARING
-	db 83, URSARING
-	db 85, MEGANIUM
-	db 85, MEGANIUM
+	db 82, HERACROSS
+	db 82, MILTANK
+	db 83, JOLTEON
+	db 83, VAPOREON
+	db 83, EXEGGUTOR
+	db 85, FORRETRESS
+	db 85, BLISSEY
 	; day
-	db 82, RAPIDASH
-	db 82, DODRIO
-	db 83, DONPHAN
-	db 83, URSARING
-	db 83, URSARING
-	db 85, TYPHLOSION
-	db 85, TYPHLOSION
+	db 82, TAUROS
+	db 82, JOLTEON
+	db 83, EXEGGUTOR
+	db 83, VAPOREON
+	db 83, NIDOKING
+	db 85, FORRETRESS
+	db 85, CHANSEY
 	; nite
-	db 82, RAPIDASH
-	db 82, DODRIO
-	db 83, URSARING
-	db 83, DONPHAN
-	db 83, DONPHAN
-	db 85, FERALIGATR
-	db 85, FERALIGATR
+	db 82, CROBAT
+	db 82, UMBREON
+	db 83, TAUROS
+	db 83, JOLTEON
+	db 83, FORRETRESS
+	db 85, MILTANK
+	db 85, SKARMORY
 	ENDC
 
 	db -1 ; end

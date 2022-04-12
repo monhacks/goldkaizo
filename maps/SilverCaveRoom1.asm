@@ -33,10 +33,10 @@ SilverCaveRoom1_MapEvents:
 	db 0 ; coord events
 
 	db 2 ; bg events
-	bg_event 16, 23, BGEVENT_ITEM, SilverCaveRoom1HiddenDireHit
-	bg_event 17, 12, BGEVENT_ITEM, SilverCaveRoom1HiddenUltraBall
+	bg_event  2, 29, BGEVENT_ITEM, SilverCaveRoom1HiddenDireHit
+	bg_event 13,  2, BGEVENT_ITEM, SilverCaveRoom1HiddenUltraBall
 
 	db 3 ; object events
-	object_event  4,  9, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SilverCaveRoom1MaxElixer, EVENT_SILVER_CAVE_ROOM_1_MAX_ELIXER
+	object_event  5, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SilverCaveRoom1MaxElixer, EVENT_SILVER_CAVE_ROOM_1_MAX_ELIXER
 	object_event 15, 29, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SilverCaveRoom1XAccuracy, EVENT_SILVER_CAVE_ROOM_1_X_ACCURACY
 	object_event  5, 30, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, SilverCaveRoom1EscapeRope, EVENT_SILVER_CAVE_ROOM_1_ESCAPE_ROPE
